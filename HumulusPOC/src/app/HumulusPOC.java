@@ -1,6 +1,8 @@
 /**
  *  This Tool will demo how some DOAx files are adds to a scalable triple store
  *  in order to query those via CumulusRDF web application. 
+ * 
+ *  The cluster connection is build via the "multi cluster client layer" module (MCCL).
  *
  **/
 
