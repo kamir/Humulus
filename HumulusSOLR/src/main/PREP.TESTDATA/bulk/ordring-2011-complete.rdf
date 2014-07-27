@@ -1,0 +1,595 @@
+
+<!-- Processed by Id: cwm.py,v 1.197 2007/12/13 15:38:39 syosi Exp -->
+<!--     using base file:///Users/knud/Projekte/dogfood-svn/event-conversions/iswc2011/-->
+
+
+<rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:srwc-ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#">
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011">
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/workshop/ordring/2011"/>
+    </rdf:Description>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/aabo-akademi-university">
+        <rdfs:label>Åbo Akademi University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/ali-hanzala-khan"/>
+        <member rdf:resource="http://data.semanticweb.org/person/espen-suenson"/>
+        <member rdf:resource="http://data.semanticweb.org/person/ivan-porres"/>
+        <name>Åbo Akademi University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/deri-nui-galway">
+        <rdfs:label>Digital Enterprise Research Institute (DERI), National University of Ireland, Galway</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/axel-polleres"/>
+        <name>Digital Enterprise Research Institute (DERI), National University of Ireland, Galway</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/deri-universitaet-innsbruck">
+        <rdfs:label>STI Innsbruck</rdfs:label>
+        <rdfs:label>STI Innsbruck - University of Innsbruck</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/davide-cerri"/>
+        <member rdf:resource="http://data.semanticweb.org/person/srdjan-komazec"/>
+        <name>STI Innsbruck</name>
+        <name>STI Innsbruck - University of Innsbruck</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/derivo-gmbh">
+        <rdfs:label>derivo GmbH</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/thorsten-liebig"/>
+        <name>derivo GmbH</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/epimorphics-ltd">
+        <rdfs:label>Epimorphics</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/andy-seaborne"/>
+        <name>Epimorphics</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki">
+        <rdfs:label>German Research Center for Artificial Intelligence (DFKI)</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/andreas-dengel"/>
+        <member rdf:resource="http://data.semanticweb.org/person/benjamin-adrian"/>
+        <member rdf:resource="http://data.semanticweb.org/person/ralf-biedert"/>
+        <name>German Research Center for Artificial Intelligence (DFKI)</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/ibm-corporation">
+        <rdfs:label>IBM</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/guido-vetere"/>
+        <name>IBM</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/institut-aifb-universitaet-karlsruhe">
+        <rdfs:label>AIFB,  Karlsruhe Institute of Technology</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/sebastian-rudolph"/>
+        <name>AIFB,  Karlsruhe Institute of Technology</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/isti-cnr">
+        <rdfs:label>ISTI-CNR</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/umberto-straccia"/>
+        <name>ISTI-CNR</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/oracle-corporation">
+        <rdfs:label>Oracle</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/zhe-wu"/>
+        <name>Oracle</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/oxford-university-computing-laboratory">
+        <rdfs:label>Oxford University Computing Laboratory</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/ian-horrocks"/>
+        <name>Oxford University Computing Laboratory</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/politecnico-di-milano">
+        <rdfs:label>Politecnico di Milano</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/alessandro-bozzon"/>
+        <member rdf:resource="http://data.semanticweb.org/person/emanuele-della-valle"/>
+        <member rdf:resource="http://data.semanticweb.org/person/letizia-tanca"/>
+        <name>Politecnico di Milano</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/ulm-university">
+        <rdfs:label>Ulm University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/michael-opitz"/>
+        <name>Ulm University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid">
+        <rdfs:label>Universidad Politécnica de Madrid</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/oscar-corcho"/>
+        <name>Universidad Politécnica de Madrid</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-aberdeen">
+        <rdfs:label>University of Aberdeen</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/jeff-z-pan"/>
+        <name>University of Aberdeen</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-hildesheim-dfki">
+        <rdfs:label>University of Hildesheim  DFKI</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/thomas-roth-berghofer"/>
+        <name>University of Hildesheim  DFKI</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-kaiserslautern-dfki">
+        <rdfs:label>University of Kaiserslautern  DFKI</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/joern-hees"/>
+        <name>University of Kaiserslautern  DFKI</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands">
+        <rdfs:label>VU University Amsterdam</rdfs:label>
+        <rdfs:label>Vrije Universiteit Amsterdam</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/annette-ten-teije"/>
+        <member rdf:resource="http://data.semanticweb.org/person/frank-van-harmelen"/>
+        <member rdf:resource="http://data.semanticweb.org/person/jesper-hoeksema"/>
+        <member rdf:resource="http://data.semanticweb.org/person/spyros-kotoulas"/>
+        <member rdf:resource="http://data.semanticweb.org/person/stefan-schlobach"/>
+        <name>VU University Amsterdam</name>
+        <name>Vrije Universiteit Amsterdam</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/w3c">
+        <rdfs:label>W3C</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/eric-prudhommeaux"/>
+        <name>W3C</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/wright-state-university">
+        <rdfs:label>Kno.e.sis Center, Wright State University, Dayton, Ohio</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/pascal-hitzler"/>
+        <name>Kno.e.sis Center, Wright State University, Dayton, Ohio</name>
+    </Organization>
+
+    <Person rdf:about="http://data.semanticweb.org/person/alessandro-bozzon">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/politecnico-di-milano"/>
+        <rdfs:label>Alessandro Bozzon</rdfs:label>
+        <homepage rdf:resource="http://home.dei.polimi.it/bozzon/"/>
+        <name>Alessandro Bozzon</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ali-hanzala-khan">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/aabo-akademi-university"/>
+        <rdfs:label>Ali Hanzala Khan</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/5"/>
+        <name>Ali Hanzala Khan</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/andreas-dengel">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+        <rdfs:label>Andreas Dengel</rdfs:label>
+        <homepage rdf:resource="http://www.dfki.de"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/4"/>
+        <name>Andreas Dengel</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/andy-seaborne">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/epimorphics-ltd"/>
+        <rdfs:label>Andy Seaborne</rdfs:label>
+        <name>Andy Seaborne</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/annette-ten-teije">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+        <rdfs:label>Annette Ten Teije</rdfs:label>
+        <homepage rdf:resource="http://www.cs.vu.nl/~annette"/>
+        <name>Annette Ten Teije</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/axel-polleres">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+        <rdfs:label>Axel Polleres</rdfs:label>
+        <homepage rdf:resource="http://www.polleres.net"/>
+        <name>Axel Polleres</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/benjamin-adrian">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+        <rdfs:label>Benjamin Adrian</rdfs:label>
+        <homepage rdf:resource="http://www.dfki.de/~adrian"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/4"/>
+        <name>Benjamin Adrian</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/davide-cerri">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/deri-universitaet-innsbruck"/>
+        <rdfs:label>Davide Cerri</rdfs:label>
+        <homepage rdf:resource="http://www.davidecerri.org/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/7"/>
+        <name>Davide Cerri</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/emanuele-della-valle">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/politecnico-di-milano"/>
+        <rdfs:label>Emanuele Della Valle</rdfs:label>
+        <homepage rdf:resource="http://www.emanueledellavalle.org"/>
+        <name>Emanuele Della Valle</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/eric-prudhommeaux">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/w3c"/>
+        <rdfs:label>Eric Prud'Hommeaux</rdfs:label>
+        <homepage rdf:resource="http://www.w3.org/People/Eric/"/>
+        <name>Eric Prud'Hommeaux</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/espen-suenson">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/aabo-akademi-university"/>
+        <rdfs:label>Espen Suenson</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/5"/>
+        <name>Espen Suenson</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/frank-van-harmelen">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+        <rdfs:label>Frank Van Harmelen</rdfs:label>
+        <homepage rdf:resource="http://www.cs.vu.nl/~frankh"/>
+        <name>Frank Van Harmelen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/guido-vetere">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/ibm-corporation"/>
+        <rdfs:label>Guido Vetere</rdfs:label>
+        <name>Guido Vetere</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ian-horrocks">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/oxford-university-computing-laboratory"/>
+        <rdfs:label>Ian Horrocks</rdfs:label>
+        <homepage rdf:resource="http://www.cs.ox.ac.uk/people/ian.horrocks/"/>
+        <name>Ian Horrocks</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ivan-porres">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/aabo-akademi-university"/>
+        <rdfs:label>Ivan Porres</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/5"/>
+        <name>Ivan Porres</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jeff-z-pan">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-aberdeen"/>
+        <rdfs:label>Jeff Pan</rdfs:label>
+        <homepage rdf:resource="http://www.csd.abdn.ac.uk/~jpan/"/>
+        <name>Jeff Pan</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jesper-hoeksema">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+        <rdfs:label>Jesper Hoeksema</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/8"/>
+        <name>Jesper Hoeksema</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/joern-hees">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-kaiserslautern-dfki"/>
+        <rdfs:label>Jörn Hees</rdfs:label>
+        <homepage rdf:resource="http://joernhees.de"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/4"/>
+        <name>Jörn Hees</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/letizia-tanca">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/politecnico-di-milano"/>
+        <rdfs:label>Letizia Tanca</rdfs:label>
+        <homepage rdf:resource="http://tanca.dei.polimi.it/"/>
+        <name>Letizia Tanca</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/michael-opitz">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/ulm-university"/>
+        <rdfs:label>Michael Opitz</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/1"/>
+        <name>Michael Opitz</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/oscar-corcho">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid"/>
+        <rdfs:label>Oscar Corcho</rdfs:label>
+        <name>Oscar Corcho</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/pascal-hitzler">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/wright-state-university"/>
+        <rdfs:label>Pascal Hitzler</rdfs:label>
+        <homepage rdf:resource="http://www.pascal-hitzler.de"/>
+        <name>Pascal Hitzler</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ralf-biedert">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+        <rdfs:label>Ralf Biedert</rdfs:label>
+        <homepage rdf:resource="http://www.dfki.de/~biedert"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/4"/>
+        <name>Ralf Biedert</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/sebastian-rudolph">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/institut-aifb-universitaet-karlsruhe"/>
+        <rdfs:label>Sebastian Rudolph</rdfs:label>
+        <homepage rdf:resource="http://www.sebastian-rudolph.de"/>
+        <name>Sebastian Rudolph</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/spyros-kotoulas">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+        <rdfs:label>Spyros Kotoulas</rdfs:label>
+        <homepage rdf:resource="http://www.few.vu.nl/~kot"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/8"/>
+        <name>Spyros Kotoulas</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/srdjan-komazec">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/deri-universitaet-innsbruck"/>
+        <rdfs:label>Srdjan Komazec</rdfs:label>
+        <homepage rdf:resource="http://www.sti-innsbruck.at"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/7"/>
+        <name>Srdjan Komazec</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/stefan-schlobach">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/vrije-universiteit-amsterdam-the-netherlands"/>
+        <rdfs:label>Stefan Schlobach</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/9"/>
+        <name>Stefan Schlobach</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/thomas-roth-berghofer">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-hildesheim-dfki"/>
+        <rdfs:label>Thomas Roth-Berghofer</rdfs:label>
+        <homepage rdf:resource="http://thomas@roth-berghofer.de"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/4"/>
+        <name>Thomas Roth-Berghofer</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/thorsten-liebig">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/derivo-gmbh"/>
+        <rdfs:label>Thorsten Liebig</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/1"/>
+        <name>Thorsten Liebig</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/umberto-straccia">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/isti-cnr"/>
+        <rdfs:label>Umberto Straccia</rdfs:label>
+        <homepage rdf:resource="http://gaia.isti.cnr.it/~straccia"/>
+        <name>Umberto Straccia</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/zhe-wu">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/oracle-corporation"/>
+        <rdfs:label>Zhe Wu</rdfs:label>
+        <name>Zhe Wu</name>
+    </Person>
+
+    <swc:WorkshopEvent rdf:about="http://data.semanticweb.org/workshop/ordring/2011">
+        <swc:completeGraph rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/complete"/>
+        <swc:hasAcronym>OrdRing2011</swc:hasAcronym>
+        <swc:hasLocation rdf:resource="http://data.semanticweb.org/conference/iswc/2011/place/hayden"/>
+        <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/proceedings"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/chair"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/pcmember"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/workshop/ordring"/>
+        <swrc:abstract>The goal of the ORDRING 2011 workshop is to bring together the growing and very active community of Semantic Web researchers and practitioners interested in novel ideas, experiments, and application visions originating from the efforts aimed at interleaving ordering and reasoning.</swrc:abstract>
+        <rdfs:label>First International Workshop on Ordering and Reasoning</rdfs:label>
+        <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ical:dtend>
+        <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T09:00:00+02:00</ical:dtstart>
+        <ical:url rdf:resource="http://ordring2011.search-computing.org/"/>
+        <homepage rdf:resource="http://ordring2011.search-computing.org/"/>
+    </swc:WorkshopEvent>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/1">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/michael-opitz"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/thorsten-liebig"/>
+        <dc:subject>OWL 2 RL</dc:subject>
+        <dc:subject>incremental updates</dc:subject>
+        <dc:subject>materialization</dc:subject>
+        <dc:subject>stream reasoning</dc:subject>
+        <dc:title>Reasoning over Dynamic Data in Expressive Knowledge Bases with Rscale</dc:title>
+        <swrc:abstract>We introduce Rscale, a secondary storage-aware OWL 2 RL reasoning system capable of dealing with incremental additions and deletions of facts. Our initial evaluation indicates that Rscale is suitable for stream reasoning scenarios characterized by expressive reasoning tasks triggered by a moderate change frequency.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/michael-opitz"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/thorsten-liebig"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/1/authorlist"/>
+        <rdfs:label>Reasoning over Dynamic Data in Expressive Knowledge Bases with Rscale</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/michael-opitz"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/thorsten-liebig"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/1/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/thorsten-liebig"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/michael-opitz"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/4">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/andreas-dengel"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/benjamin-adrian"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/joern-hees"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/ralf-biedert"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/thomas-roth-berghofer"/>
+        <dc:subject>linked data</dc:subject>
+        <dc:subject>ordered facts</dc:subject>
+        <dc:subject>semantic games with a purpose</dc:subject>
+        <dc:subject>triple rating</dc:subject>
+        <dc:title>BetterRelations: Detailed Evaluation of a Game to Rate Linked Data Triples</dc:title>
+        <swrc:abstract>While associations between concepts in our memory have different strengths, the explicit strengths Linked Data edge weights are missing. As a result Linked Data is of limited use for Artificial Intelligence with respect to the simulation of human thinking. In order to build a collection of such edge weights, we created a web-game prototype that ranks triples by importance. In this paper we explain the game's concept, summarize Linked Data related implementation aspects, and include a detailed evaluation of the game.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/andreas-dengel"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/benjamin-adrian"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/joern-hees"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/ralf-biedert"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/thomas-roth-berghofer"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/4/authorlist"/>
+        <rdfs:label>BetterRelations: Detailed Evaluation of a Game to Rate Linked Data Triples</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/andreas-dengel"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/benjamin-adrian"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/joern-hees"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/ralf-biedert"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/thomas-roth-berghofer"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/4/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/joern-hees"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/thomas-roth-berghofer"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/ralf-biedert"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/benjamin-adrian"/>
+        <rdf:_5 rdf:resource="http://data.semanticweb.org/person/andreas-dengel"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/5">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/ali-hanzala-khan"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/espen-suenson"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/ivan-porres"/>
+        <dc:subject>Model Conformance</dc:subject>
+        <dc:subject>OWL2</dc:subject>
+        <dc:subject>Ordering</dc:subject>
+        <dc:subject>Reasoning</dc:subject>
+        <dc:title>Representation and Conformance of UML models containing ordered properties using OWL2</dc:title>
+        <swrc:abstract>In this article we show how to represent UML models depicting ordered properties using OWL2, and how to reason about model conformance using OWL2 reasoners. Our translation from UML models to OWL2 is driven by three important forces. First, we want to maintain the close-world assumption about UML models. Second, we want to preserve structural model information of ordered properties. Finally, model conformance is defined solely by OWL2 axioms so that reasoning can be done by using existing and future OWL2 reasoner developed by others. We have implemented the translation as an automatic model transformation tool. The model transformation tool takes as input a UML object model and its class model and produces an ontology that can be processed by an OWL2 reasoner to reveal if the object model elements  conform to their class model or not.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/ali-hanzala-khan"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/espen-suenson"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/ivan-porres"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/5/authorlist"/>
+        <rdfs:label>Representation and Conformance of UML models containing ordered properties using OWL2</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/ali-hanzala-khan"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/espen-suenson"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/ivan-porres"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/5/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/ali-hanzala-khan"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/espen-suenson"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/ivan-porres"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/7">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/davide-cerri"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/srdjan-komazec"/>
+        <dc:subject>RDF</dc:subject>
+        <dc:subject>Rete</dc:subject>
+        <dc:subject>data streams</dc:subject>
+        <dc:subject>event processing</dc:subject>
+        <dc:subject>inference</dc:subject>
+        <dc:subject>pattern matching</dc:subject>
+        <dc:subject>semantic Web</dc:subject>
+        <dc:title>Towards Efficient Schema-Enhanced Pattern Matching over RDF Data Streams</dc:title>
+        <swrc:abstract>Data streams, often seen as sources of events, have appeared on the Web. Event processing on the Web needs however to cope with the typical openness and heterogeneity of the Web environment. Semantic Web technology, meant to facilitate data integration in an open environment, can help to address heterogeneities across multiple streams. In this paper we discuss an approach towards efficient pattern matching over RDF data streams based on the Rete algorithm, which can be considered as a first building block for event processing on the Web. Our approach focuses on enhancing Rete with knowledge from the RDF schema associated with data streams, so that implicit knowledge can contribute to pattern matching. Moreover, we cover Rete extensions that cope with the streaming nature of the processed data, such as support for temporal operators, time windows, consumption strategies and garbage collection.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/davide-cerri"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/srdjan-komazec"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/7/authorlist"/>
+        <rdfs:label>Towards Efficient Schema-Enhanced Pattern Matching over RDF Data Streams</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/davide-cerri"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/srdjan-komazec"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/7/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/srdjan-komazec"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/davide-cerri"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/8">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jesper-hoeksema"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/spyros-kotoulas"/>
+        <dc:subject>C-SPARQL</dc:subject>
+        <dc:subject>Distribution</dc:subject>
+        <dc:subject>High-performance</dc:subject>
+        <dc:subject>RDF Streams</dc:subject>
+        <dc:subject>Reasoning</dc:subject>
+        <dc:subject>Semantic Web</dc:subject>
+        <dc:subject>Stream processing</dc:subject>
+        <dc:title>High-performance Distributed Stream Reasoning using S4</dc:title>
+        <swrc:abstract>In this paper, we present a high-throughput system for reasoning over RDF streams. Recognising the inherent limitations of sequential approaches, we turn to parallel methods, utilizing a compute cluster and the Yahoo S4 framework. We are presenting a set of low-level predicates operating on a stream and an encoding of RDFS reasoning and C-SPARQL query answering using these predicates.We perform experiments on up to 32 compute nodes. Our results indicate that our method scales well and can process hundreds of thousands of triples per second.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/jesper-hoeksema"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/spyros-kotoulas"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/8/authorlist"/>
+        <rdfs:label>High-performance Distributed Stream Reasoning using S4</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/jesper-hoeksema"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/spyros-kotoulas"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/8/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/jesper-hoeksema"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/spyros-kotoulas"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/9">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/stefan-schlobach"/>
+        <dc:subject>Ordered Data</dc:subject>
+        <dc:subject>Scalable reasoning</dc:subject>
+        <dc:subject>top-k queries</dc:subject>
+        <dc:title>Top-k reasoning for the Semantic Web</dc:title>
+        <swrc:abstract>Data on the Semantic Web is ordered, for instance, through orderingsover literals (e.g., age, heights, location, rating etc), resources(e.g., popularity) or triples (e.g., provenance, confidence, time-stamps).Recently, orderings have been established as first class citizensin an extended SPARQL algebra, with an efficient calculus for finding, e.g.,top-k answers. In this paper we advocate a similar initiative for thesemantic (or reasoning) part of such querying: given an expressiveknowledge base with orderings, can we make use of these orderings toefficiently reason over large datasets where top-k answers are required.The basic idea is to define the notion of a top-k closure, which isa subset of the full semantic closure sufficient to answertop-k queries. We argue that this top-k closure can be efficiently calculated by applying top-k joins needed when applying entailment rules of the standard calculus.This paper introduces the top-k reasoning problem, and advocates a potential solution. </swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/stefan-schlobach"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/9/authorlist"/>
+        <rdfs:label>Top-k reasoning for the Semantic Web</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/stefan-schlobach"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ordring/2011/paper/9/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/stefan-schlobach"/>
+    </rdf:Description>
+
+    <swc:ProgrammeCommitteeMember rdf:about="http://data.semanticweb.org/workshop/ordring/2011/pcmember">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/alessandro-bozzon"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/andy-seaborne"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/annette-ten-teije"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/axel-polleres"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/emanuele-della-valle"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/eric-prudhommeaux"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/frank-van-harmelen"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/guido-vetere"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ian-horrocks"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jeff-z-pan"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/letizia-tanca"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/oscar-corcho"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/pascal-hitzler"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/sebastian-rudolph"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/umberto-straccia"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/zhe-wu"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/workshop/ordring/2011"/>
+        <rdfs:label>PC Member at ISWC2011 (OrdRing Workshop)</rdfs:label>
+    </swc:ProgrammeCommitteeMember>
+
+    <swrc:Proceedings rdf:about="http://data.semanticweb.org/workshop/ordring/2011/proceedings">
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/1"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/4"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/5"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/7"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/8"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ordring/2011/paper/9"/>
+    </swrc:Proceedings>
+</rdf:RDF>

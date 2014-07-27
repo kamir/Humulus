@@ -1,0 +1,39 @@
+
+<!-- Processed by Id: cwm.py,v 1.197 2007/12/13 15:38:39 syosi Exp -->
+<!--     using base file:///Users/knud/Projekte/dogfood-svn/event-conversions/iswc2011/ISWC2011-workshops/om/WorkshopInfo.ttl-->
+
+
+<rdf:RDF xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#">
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011">
+        <isSuperEventOf rdf:resource="http://data.semanticweb.org/workshop/om/2011"/>
+    </rdf:Description>
+
+    <WorkshopEvent rdf:about="http://data.semanticweb.org/workshop/om/2011">
+        <completeGraph rdf:resource="http://data.semanticweb.org/workshop/om/2011/complete"/>
+        <hasAcronym>OM-2011</hasAcronym>
+        <hasLocation rdf:resource="http://data.semanticweb.org/conference/iswc/2011/place/reger"/>
+        <hasRelatedDocument rdf:resource="http://data.semanticweb.org/workshop/om/2011/proceedings"/>
+        <hasRole rdf:resource="http://data.semanticweb.org/workshop/om/2011/chair"/>
+        <isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+        <isSubEventOf rdf:resource="http://data.semanticweb.org/workshop/om"/>
+        <swrc:abstract>Ontology matching is a key interoperability enabler for the Semantic Web, as well as a useful tactic in some classical data integration tasks dealing with the semantic heterogeneity problem. It takes the ontologies as input and determines as output an alignment, that is, a set of correspondences between the semantically related entities of those ontologies. These correspondences can be used for various tasks, such as ontology merging, data translation, query answering or navigation on the web of data. Thus, matching ontologies enables the knowledge and data expressed in the matched ontologies to interoperate. The workshop has three goals:
+
+To bring together leaders from , and institutions to assess how academic advances are addressing real-world requirements. The workshop will strive to improve academic awareness of industrial and final user needs, and therefore direct research towards those needs. Simultaneously, the workshop will serve to inform industry and user representatives about existing research efforts that may meet their requirements. The workshop will also investigate how the ontology matching technology is going to evolve.
+
+To conduct an extensive and rigorous evaluation of ontology matching approaches through the OAEI (Ontology Alignment Evaluation Initiative) 2011 campaign. The particular focus of this year's OAEI campaign is on real-world specific matching tasks involving, e.g., open linked data and biomedical ontologies. Therefore, the ontology matching evaluation initiative itself will provide a solid ground for discussion of how well the current approaches are meeting business needs.
+
+To examine similarities and differences from database schema matching, which has received decades of attention but is just beginning to transition to mainstream tools.</swrc:abstract>
+        <rdfs:label>The Sixth International Workshop on Ontology Matching</rdfs:label>
+        <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T18:00:00+02:00</ical:dtend>
+        <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ical:dtstart>
+        <ical:url rdf:resource="http://om2011.ontologymatching.org/"/>
+        <foaf:homepage rdf:resource="http://om2011.ontologymatching.org/"/>
+    </WorkshopEvent>
+</rdf:RDF>

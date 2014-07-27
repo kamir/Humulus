@@ -1,0 +1,953 @@
+
+<!-- Processed by Id: cwm.py,v 1.197 2007/12/13 15:38:39 syosi Exp -->
+<!--     using base file:///Users/knud/Projekte/dogfood-svn/event-conversions/iswc2011/-->
+
+
+<rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:srwc-ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#">
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011">
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/chair"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011"/>
+    </rdf:Description>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/aalto-university-school-of-science-and-technology-tkk-and-university-of-helsinki">
+        <rdfs:label>Aalto University School of Science</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+        <name>Aalto University School of Science</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/aalto-university-school-of-science-and-university-of-helsinki">
+        <rdfs:label>Aalto University, School of Science</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/kim-viljanen"/>
+        <name>Aalto University, School of Science</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/aalto-university-school-of-science-dept-of-media-technology-and-university-of-helsinki-dept-of-computer-science">
+        <rdfs:label>Aalto University School of Science, Dept. of Media Technology and University of Helsinki, Dept. of Computer Science</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <name>Aalto University School of Science, Dept. of Media Technology and University of Helsinki, Dept. of Computer Science</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/bundeswehr-university-munich-germany">
+        <rdfs:label>Universitaet der Bundeswehr</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/leyla-jael-garcia-castro"/>
+        <name>Universitaet der Bundeswehr</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/fluid-operations">
+        <rdfs:label>fluid Operations</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/peter-haase"/>
+        <name>fluid Operations</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/gesis-leibniz-institute-for-the-social-sciences">
+        <rdfs:label>GESIS - Leibniz Institute for the Social Sciences</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/brigitte-mathiak"/>
+        <member rdf:resource="http://data.semanticweb.org/person/thomas-bosch"/>
+        <name>GESIS - Leibniz Institute for the Social Sciences</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/institut-national-de-la-sante-et-de-la-recherche-medicale">
+        <rdfs:label>Institut National de la Santé et de la Recherche Médicale</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/joost-schanstra"/>
+        <member rdf:resource="http://data.semanticweb.org/person/julie-klein"/>
+        <member rdf:resource="http://data.semanticweb.org/person/panagiotis-moulos"/>
+        <name>Institut National de la Santé et de la Recherche Médicale</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/jacobs-university-bremen">
+        <rdfs:label>Jacobs University Bremen</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/christoph-lange"/>
+        <name>Jacobs University Bremen</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/kdz-centre-for-public-administration-research">
+        <rdfs:label>NIST</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/fabian-neuhaus"/>
+        <name>NIST</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/kmi-the-open-university-uk">
+        <rdfs:label>Knowledge Media Institute, The Open University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+        <name>Knowledge Media Institute, The Open University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/kwarc">
+        <rdfs:label>KWARC</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/michael-kohlhase"/>
+        <name>KWARC</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/osaka-university-japan">
+        <rdfs:label>I.S.I.R., Osaka University</rdfs:label>
+        <rdfs:label>University of Osaka</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/keisuke-hihara"/>
+        <member rdf:resource="http://data.semanticweb.org/person/kouji-kozaki"/>
+        <member rdf:resource="http://data.semanticweb.org/person/riichiro-mizoguchi"/>
+        <name>I.S.I.R., Osaka University</name>
+        <name>University of Osaka</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/poznan-supercomputing-and-networking-center">
+        <rdfs:label>Poznan Supercomputing and Networking Center</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/raul-palma"/>
+        <name>Poznan Supercomputing and Networking Center</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/raytheon-bbn-technologies">
+        <rdfs:label>Raytheon BBN Technologies</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/mike-dean"/>
+        <name>Raytheon BBN Technologies</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/rensselaer-polytechnic-institute">
+        <rdfs:label>Rensselaer Polytechnic Institute</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/li-ding"/>
+        <name>Rensselaer Polytechnic Institute</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/school-of-computing-university-of-leeds">
+        <rdfs:label>School of Computing, University of Leeds</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/vania-dimitrova"/>
+        <name>School of Computing, University of Leeds</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk">
+        <rdfs:label>Semantic Computing Research Group (SeCo), Aalto University School of Science and Technology (TKK)</rdfs:label>
+        <rdfs:label>Semantic Computing Research Group (SeCo), Aalto University School of Science, Department of Media Technology</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+        <member rdf:resource="http://data.semanticweb.org/person/katri-seppaelae"/>
+        <member rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+        <member rdf:resource="http://data.semanticweb.org/person/osma-suominen"/>
+        <member rdf:resource="http://data.semanticweb.org/person/sini-pessala"/>
+        <name>Semantic Computing Research Group (SeCo), Aalto University School of Science and Technology (TKK)</name>
+        <name>Semantic Computing Research Group (SeCo), Aalto University School of Science, Department of Media Technology</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/stanford-university">
+        <rdfs:label>Stanford</rdfs:label>
+        <rdfs:label>Stanford University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/csongor-nyulas"/>
+        <member rdf:resource="http://data.semanticweb.org/person/mark-a-musen"/>
+        <member rdf:resource="http://data.semanticweb.org/person/natalya-noy"/>
+        <member rdf:resource="http://data.semanticweb.org/person/nigam-shah"/>
+        <member rdf:resource="http://data.semanticweb.org/person/tania-tudorache"/>
+        <member rdf:resource="http://data.semanticweb.org/person/timothy-redmond"/>
+        <name>Stanford</name>
+        <name>Stanford University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/the-genomics-institute-of-the-novartis-research-foundation">
+        <rdfs:label>The Genomics Institute of the Novartis Research Foundation</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/benjamin-good"/>
+        <name>The Genomics Institute of the Novartis Research Foundation</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid">
+        <rdfs:label>Universidad Politecnica de Madrid</rdfs:label>
+        <rdfs:label>Universidad Politécnica de Madrid</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/boris-villazon-terrazas"/>
+        <member rdf:resource="http://data.semanticweb.org/person/oscar-corcho"/>
+        <member rdf:resource="http://data.semanticweb.org/person/raul-garcia-castro"/>
+        <name>Universidad Politecnica de Madrid</name>
+        <name>Universidad Politécnica de Madrid</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-arkansas-for-medical-sciences">
+        <rdfs:label>University of Arkansas for Medical Sciences</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/william-hogan"/>
+        <name>University of Arkansas for Medical Sciences</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-bremen">
+        <rdfs:label>University of Bremen</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/john-bateman"/>
+        <member rdf:resource="http://data.semanticweb.org/person/luis-ramos"/>
+        <name>University of Bremen</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-bremen-sfb-tr-8-spatial-cognition">
+        <rdfs:label>University of Bremen, SFB/TR 8 Spatial Cognition</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/oliver-kutz"/>
+        <name>University of Bremen, SFB/TR 8 Spatial Cognition</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-helsinki">
+        <rdfs:label>University of Helsinki</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/mika-wahlroos"/>
+        <name>University of Helsinki</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-helsinki-and-aalto-university-school-of-science">
+        <rdfs:label>Aalto University and University of Helsinki</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <name>Aalto University and University of Helsinki</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-leeds">
+        <rdfs:label>University of Leeds</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/dhavalkumar-thakker"/>
+        <member rdf:resource="http://data.semanticweb.org/person/fan-yang-turner"/>
+        <member rdf:resource="http://data.semanticweb.org/person/lydia-lau"/>
+        <name>University of Leeds</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-manchester-uk">
+        <rdfs:label>The University of Manchester</rdfs:label>
+        <rdfs:label>University of Manchester</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/matthew-horridge"/>
+        <member rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+        <member rdf:resource="http://data.semanticweb.org/person/simon-jupp"/>
+        <member rdf:resource="http://data.semanticweb.org/person/steve-pettifer"/>
+        <name>The University of Manchester</name>
+        <name>University of Manchester</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-toronto">
+        <rdfs:label>University of Toronto</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/michael-gruninger"/>
+        <name>University of Toronto</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/vicomtech">
+        <rdfs:label>Vicomtech</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/carlos-toro"/>
+        <name>Vicomtech</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/vistology-inc">
+        <rdfs:label>VIStology, Inc.</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/kenneth-baclawski"/>
+        <name>VIStology, Inc.</name>
+    </Organization>
+
+    <Person rdf:about="http://data.semanticweb.org/person/alexander-garcia-castro">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/chair"/>
+        <rdfs:label>Alexander Garcia</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/13"/>
+        <name>Alexander Garcia</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/benjamin-good">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/the-genomics-institute-of-the-novartis-research-foundation"/>
+        <rdfs:label>Benjamin Good</rdfs:label>
+        <name>Benjamin Good</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/boris-villazon-terrazas">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid"/>
+        <rdfs:label>Boris Villazón-Terrazas</rdfs:label>
+        <homepage rdf:resource="http://www.oeg-upm.net"/>
+        <name>Boris Villazón-Terrazas</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/brigitte-mathiak">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/gesis-leibniz-institute-for-the-social-sciences"/>
+        <rdfs:label>Brigitte Mathiak</rdfs:label>
+        <homepage rdf:resource="http://www.gesis.org"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/10"/>
+        <name>Brigitte Mathiak</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/carlos-pedrinaci">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+        <rdfs:label>Carlos Pedrinaci</rdfs:label>
+        <homepage rdf:resource="http://kmi.open.ac.uk/people/carlos/"/>
+        <name>Carlos Pedrinaci</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/carlos-toro">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/vicomtech"/>
+        <rdfs:label>Carlos Toro</rdfs:label>
+        <homepage rdf:resource="http://www.vicomtech.es/ingles/html/personal/index_personal45.html"/>
+        <name>Carlos Toro</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/christoph-lange">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/chair"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/jacobs-university-bremen"/>
+        <rdfs:label>Christoph Lange</rdfs:label>
+        <homepage rdf:resource="http://kwarc.info/clange/"/>
+        <name>Christoph Lange</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/csongor-nyulas">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+        <rdfs:label>Csongor I Nyulas</rdfs:label>
+        <homepage rdf:resource="http://bmir.stanford.edu/people/view.php/csongor_i_nyulas"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/6"/>
+        <name>Csongor I Nyulas</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/dhavalkumar-thakker">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-leeds"/>
+        <rdfs:label>Dhavalkumar Thakker</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/9"/>
+        <name>Dhavalkumar Thakker</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/eero-hyvoenen">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/aalto-university-school-of-science-dept-of-media-technology-and-university-of-helsinki-dept-of-computer-science"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-helsinki-and-aalto-university-school-of-science"/>
+        <rdfs:label>Eero Hyvönen</rdfs:label>
+        <homepage rdf:resource="http://www.seco.tkk.fi/u/eahyvone/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/11"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/12"/>
+        <name>Eero Hyvönen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/fabian-neuhaus">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/kdz-centre-for-public-administration-research"/>
+        <rdfs:label>Fabian Neuhaus</rdfs:label>
+        <name>Fabian Neuhaus</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/fan-yang-turner">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-leeds"/>
+        <rdfs:label>Fan Yang-Turner</rdfs:label>
+        <homepage rdf:resource="http://www.engineering.leeds.ac.uk/people/computing/staff/f.yang-turner"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/9"/>
+        <name>Fan Yang-Turner</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/john-bateman">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/chair"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-bremen"/>
+        <rdfs:label>John Bateman</rdfs:label>
+        <homepage rdf:resource="http://www.uni-bremen.de/~bateman"/>
+        <name>John Bateman</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/joost-schanstra">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/institut-national-de-la-sante-et-de-la-recherche-medicale"/>
+        <rdfs:label>Joost Schanstra</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/7"/>
+        <name>Joost Schanstra</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jouni-tuominen">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/aalto-university-school-of-science-and-technology-tkk-and-university-of-helsinki"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+        <rdfs:label>Jouni Tuominen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/12"/>
+        <name>Jouni Tuominen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/julie-klein">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/institut-national-de-la-sante-et-de-la-recherche-medicale"/>
+        <rdfs:label>Julie Klein</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/7"/>
+        <name>Julie Klein</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/katri-seppaelae">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+        <rdfs:label>Katri Seppälä</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/12"/>
+        <name>Katri Seppälä</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/keisuke-hihara">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/osaka-university-japan"/>
+        <rdfs:label>Keisuke Hihara</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/17"/>
+        <name>Keisuke Hihara</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/kenneth-baclawski">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/chair"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/vistology-inc"/>
+        <rdfs:label>Ken Baclawski</rdfs:label>
+        <homepage rdf:resource="http://www.ccs.neu.edu/home/kenb"/>
+        <name>Ken Baclawski</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/kim-viljanen">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/chair"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/aalto-university-school-of-science-and-university-of-helsinki"/>
+        <rdfs:label>Kim Viljanen</rdfs:label>
+        <homepage rdf:resource="http://www.seco.tkk.fi/u/kimvilja/"/>
+        <name>Kim Viljanen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/kouji-kozaki">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/osaka-university-japan"/>
+        <rdfs:label>Kouji Kozaki</rdfs:label>
+        <homepage rdf:resource="http://www.ei.sanken.osaka-u.ac.jp/~kozaki/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/17"/>
+        <name>Kouji Kozaki</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/leyla-jael-garcia-castro">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/bundeswehr-university-munich-germany"/>
+        <rdfs:label>Leyla Garcia</rdfs:label>
+        <rdfs:label>Leyla Jael García Castro</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/13"/>
+        <name>Leyla Garcia</name>
+        <name>Leyla Jael García Castro</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/li-ding">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/rensselaer-polytechnic-institute"/>
+        <rdfs:label>Li Ding</rdfs:label>
+        <name>Li Ding</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/luis-ramos">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-bremen"/>
+        <rdfs:label>Luis Ramos</rdfs:label>
+        <homepage rdf:resource="http://www.uni-bremen.de"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/4"/>
+        <name>Luis Ramos</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/lydia-lau">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-leeds"/>
+        <rdfs:label>Lydia Lau</rdfs:label>
+        <homepage rdf:resource="http://www.comp.leeds.ac.uk/llau/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/9"/>
+        <name>Lydia Lau</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/mark-a-musen">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+        <rdfs:label>Mark Musen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/6"/>
+        <name>Mark Musen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/matias-frosterus">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+        <rdfs:label>Matias Frosterus</rdfs:label>
+        <homepage rdf:resource="http://www.seco.tkk.fi/u/mfroster/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/11"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/12"/>
+        <name>Matias Frosterus</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/matthew-horridge">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-manchester-uk"/>
+        <rdfs:label>Matthew Horridge</rdfs:label>
+        <homepage rdf:resource="http://www.cs.man.ac.uk/~horridgm"/>
+        <name>Matthew Horridge</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/michael-gruninger">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-toronto"/>
+        <rdfs:label>Michael Gruninger</rdfs:label>
+        <name>Michael Gruninger</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/michael-kohlhase">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/kwarc"/>
+        <rdfs:label>Michael Kohlhase</rdfs:label>
+        <homepage rdf:resource="http://kwarc.info/kohlhase"/>
+        <name>Michael Kohlhase</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/mika-wahlroos">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-helsinki"/>
+        <rdfs:label>Mika Wahlroos</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/11"/>
+        <name>Mika Wahlroos</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/mike-dean">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/raytheon-bbn-technologies"/>
+        <rdfs:label>Mike Dean</rdfs:label>
+        <homepage rdf:resource="http://purl.org/net/mdean/"/>
+        <name>Mike Dean</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/natalya-noy">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+        <rdfs:label>Natasha F. Noy</rdfs:label>
+        <homepage rdf:resource="http://www.stanford.edu/~natalya/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/6"/>
+        <name>Natasha F. Noy</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/nigam-shah">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+        <rdfs:label>Nigam Shah</rdfs:label>
+        <homepage rdf:resource="http://www.stanford.edu/~nigam"/>
+        <name>Nigam Shah</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/oliver-kutz">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-bremen-sfb-tr-8-spatial-cognition"/>
+        <rdfs:label>Oliver Kutz</rdfs:label>
+        <homepage rdf:resource="http://www.informatik.uni-bremen.de/~okutz/"/>
+        <name>Oliver Kutz</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/oscar-corcho">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid"/>
+        <rdfs:label>Oscar Corcho</rdfs:label>
+        <name>Oscar Corcho</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/osma-suominen">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+        <rdfs:label>Osma Suominen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/12"/>
+        <name>Osma Suominen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/panagiotis-moulos">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/institut-national-de-la-sante-et-de-la-recherche-medicale"/>
+        <rdfs:label>Panagiotis Moulos</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/7"/>
+        <name>Panagiotis Moulos</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/peter-haase">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/fluid-operations"/>
+        <rdfs:label>Peter Haase</rdfs:label>
+        <homepage rdf:resource="http://www.peterhaase.org/"/>
+        <name>Peter Haase</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/raul-garcia-castro">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid"/>
+        <rdfs:label>Raul Garcia</rdfs:label>
+        <homepage rdf:resource="http://delicias.dia.fi.upm.es/~rgarcia/"/>
+        <name>Raul Garcia</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/raul-palma">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/poznan-supercomputing-and-networking-center"/>
+        <rdfs:label>Raul Palma</rdfs:label>
+        <name>Raul Palma</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/riichiro-mizoguchi">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/osaka-university-japan"/>
+        <rdfs:label>Riichiro Mizoguchi</rdfs:label>
+        <homepage rdf:resource="http://www.ei.sanken.osaka-u.ac.jp/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/17"/>
+        <name>Riichiro Mizoguchi</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/robert-stevens">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-manchester-uk"/>
+        <rdfs:label>Robert Stevens</rdfs:label>
+        <homepage rdf:resource="http://www.cs.man.ac.uk/~stevensr"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/7"/>
+        <name>Robert Stevens</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/simon-jupp">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-manchester-uk"/>
+        <rdfs:label>Simon Jupp</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/7"/>
+        <name>Simon Jupp</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/sini-pessala">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk"/>
+        <rdfs:label>Sini Pessala</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/12"/>
+        <name>Sini Pessala</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/steve-pettifer">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-manchester-uk"/>
+        <rdfs:label>Steve Pettifer</rdfs:label>
+        <homepage rdf:resource="http://aig.cs.man.ac.uk/people/srp"/>
+        <name>Steve Pettifer</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/tania-tudorache">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+        <rdfs:label>Tania Tudorache</rdfs:label>
+        <homepage rdf:resource="http://bmir.stanford.edu/people/view.php/tania_tudorache"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/6"/>
+        <name>Tania Tudorache</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/thomas-bosch">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/gesis-leibniz-institute-for-the-social-sciences"/>
+        <rdfs:label>Thomas Bosch</rdfs:label>
+        <homepage rdf:resource="http://ddiandsemanticweb.blogspot.com/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/10"/>
+        <name>Thomas Bosch</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/timothy-redmond">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/stanford-university"/>
+        <rdfs:label>Timothy Redmond</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/6"/>
+        <name>Timothy Redmond</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/vania-dimitrova">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/school-of-computing-university-of-leeds"/>
+        <rdfs:label>Vania Dimitrova</rdfs:label>
+        <homepage rdf:resource="http://www.comp.leeds.ac.uk/vania/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/9"/>
+        <name>Vania Dimitrova</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/william-hogan">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-arkansas-for-medical-sciences"/>
+        <rdfs:label>William Hogan</rdfs:label>
+        <name>William Hogan</name>
+    </Person>
+
+    <swc:WorkshopEvent rdf:about="http://data.semanticweb.org/workshop/ocas/2011">
+        <swc:completeGraph rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/complete"/>
+        <swc:hasAcronym>OCAS2011</swc:hasAcronym>
+        <swc:hasLocation rdf:resource="http://data.semanticweb.org/conference/iswc/2011/place/mann"/>
+        <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/chair"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/pcmember"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/workshop/ocas"/>
+        <swrc:abstract>The real challenge for Semantic Web technologies and ontologies lays in the adoption; although the need for this disruptive technology is clear, it has not yet been fully adopted by the mainstream. Ontologies: where, what for, how, when and why? Ontologies are being used in several applications, but is ontology engineering a mature discipline? Not only are we interested in practical realizations of the Semantic Web, but also in visions of technology that illustrate how SW technology and ontologies could change our experience of the Web.</swrc:abstract>
+        <rdfs:label>Ontologies come of Age in the Semantic Web</rdfs:label>
+        <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T12:30:00+02:00</ical:dtend>
+        <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-24T09:00:00+02:00</ical:dtstart>
+        <ical:url rdf:resource="http://ocas.mywikipaper.org/"/>
+        <homepage rdf:resource="http://ocas.mywikipaper.org/"/>
+    </swc:WorkshopEvent>
+
+    <swc:Chair rdf:about="http://data.semanticweb.org/workshop/ocas/2011/chair">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/alexander-garcia-castro"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/christoph-lange"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/john-bateman"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/kenneth-baclawski"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/kim-viljanen"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/workshop/ocas/2011"/>
+        <rdfs:label>Workshop Chair at ISWC2011 (OCAS Workshop)</rdfs:label>
+    </swc:Chair>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/10">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/brigitte-mathiak"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/thomas-bosch"/>
+        <dc:subject>Ontology Design</dc:subject>
+        <dc:subject>Semantic Web</dc:subject>
+        <dc:subject>XML Schema</dc:subject>
+        <dc:title>Generic Multilevel Approach Designing Domain Ontologies based on XML Schemas</dc:title>
+        <swrc:abstract>Designing an ontology for a specific domain is a time-consuming process. In many cases information sources like XML Schemas serve as a basis for ontology engineers to conceptualize the intended ontologies. The ontology design process is sped up significantly when XML Schemas are transformed automatically into generated ontologies. An XML Schema Metamodel Ontology has been designed to represent the components of the XML Schema abstract data model. The generated ontologies’ classes are defined as sub classes of this ontology. The classes specified for the generated ontologies are intended to be further supplemented with additional semantic and domain specific information defined in domain ontologies. The resulting ontologies are as usable as ontologies that were constructed completely manual, but with a fraction of necessary effort.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/brigitte-mathiak"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/thomas-bosch"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/10/authorlist"/>
+        <rdfs:label>Generic Multilevel Approach Designing Domain Ontologies based on XML Schemas</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/brigitte-mathiak"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/thomas-bosch"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/10/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/thomas-bosch"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/brigitte-mathiak"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/11">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/mika-wahlroos"/>
+        <dc:subject>Annotation</dc:subject>
+        <dc:subject>free keywords</dc:subject>
+        <dc:subject>ontologies</dc:subject>
+        <dc:title>Extending Ontologies with Free Keywords in a Collaborative Annotation Environment</dc:title>
+        <swrc:abstract>Semantic web technologies have introduced the idea of annotating content in terms of concepts taken from ontologies. Since concepts are defined in terms of properties and relations to other concepts, descriptions grow up into larger RDF graphs that can be used as a basis for data integration and intelligent information retrieval. Since ontologies are typically incomplete, it is usually necessary to offer the annotator the possibility to introduce new free keywords or tags in addition to the predefined ontology concepts. The problem then is that free keywords/tags do not have ontological connections to the rest of the RDF graph, unless such relations are defined by the annotator.  We present a process for integrating free keywords into the ontological framework, and a practical tool implementation of it, discussing the challenges and possibilities introduced by the system. We also describe a case study performed for the Finnish Defence Forces, where the tool is used for creating a faceted semantic search portal featuring the free keywords and the ontological concepts at the same time.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/mika-wahlroos"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/11/authorlist"/>
+        <rdfs:label>Extending Ontologies with Free Keywords in a Collaborative Annotation Environment</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/mika-wahlroos"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/11/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/mika-wahlroos"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/12">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/katri-seppaelae"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/osma-suominen"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/sini-pessala"/>
+        <dc:subject>dependent ontology</dc:subject>
+        <dc:subject>linked data ontologies</dc:subject>
+        <dc:subject>ontology evolution</dc:subject>
+        <dc:subject>upper ontology</dc:subject>
+        <dc:title>MUTU: An Analysis Tool for Maintaining a System of Hierarchically Linked Ontologies</dc:title>
+        <swrc:abstract>We consider ontology evolution in a system of light-weight LinkedData ontologies, aligned with each other to form a large ontology system. Whenchanges occur in one of the ontologies, it is difficult for the human editor to keeptrack of what actually has been changed and what modifications may be needed inthe related ontologies in order to keep the system consistent. This paper presentsan analysis toolMUTU, by which such changes and their potential effects to otherontologies can be found. Such an analysis is useful for the ontology editors forundestanding the differences between ontology versions, and for updating relatedontologies when changes occur in other components of the ontology system.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/katri-seppaelae"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/osma-suominen"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/sini-pessala"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/12/authorlist"/>
+        <rdfs:label>MUTU: An Analysis Tool for Maintaining a System of Hierarchically Linked Ontologies</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/katri-seppaelae"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/osma-suominen"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/sini-pessala"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/12/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/sini-pessala"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/eero-hyvoenen"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/matias-frosterus"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+        <rdf:_5 rdf:resource="http://data.semanticweb.org/person/osma-suominen"/>
+        <rdf:_6 rdf:resource="http://data.semanticweb.org/person/katri-seppaelae"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/13">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/alexander-garcia-castro"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/leyla-jael-garcia-castro"/>
+        <dc:subject>Folksonomy</dc:subject>
+        <dc:subject>Ontology engineering</dc:subject>
+        <dc:subject>Semantic web</dc:subject>
+        <dc:subject>Social web</dc:subject>
+        <dc:subject>Wiki</dc:subject>
+        <dc:title>Folksonomies behind the scenes</dc:title>
+        <swrc:abstract>In this position paper we analyze the similarities amongst folksonomies, semantic wikis, and ontology building; we also propose an alignment and orchestration of ontologies representing these scenarios. We argue that such alignment enables a more direct application of folksonomy-based approaches over these set-ups. The rationale behind folksonomies is shared across environments such as collaborative ontology building and semantic wikis. The three of them aim to facilitate knowledge sharing across communities; a social environment in which individual and community objectives are achieved supports them all. </swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/alexander-garcia-castro"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/leyla-jael-garcia-castro"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/13/authorlist"/>
+        <rdfs:label>Folksonomies behind the scenes</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/alexander-garcia-castro"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/leyla-jael-garcia-castro"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/13/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/leyla-jael-garcia-castro"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/alexander-garcia-castro"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/17">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/keisuke-hihara"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/kouji-kozaki"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/riichiro-mizoguchi"/>
+        <dc:subject>dynamic is-a hierarchy generation</dc:subject>
+        <dc:subject>ontology</dc:subject>
+        <dc:subject>viewpoint</dc:subject>
+        <dc:title>Dynamic is-a Hierarchy Generation for User Centric Semantic Web</dc:title>
+        <swrc:abstract>In ontological theory, is-a hierarchy must represent essential property of things and hence it should be single-inheritance, since essential property of things cannot be multiple. However, we cannot avoid multi-perspective issues when we build an ontology because the user often want to understand things from their own viewpoints. Especially, in the Semantic Web, the variety of 　user causes the variety of viewpoint to capture target domains. In order to tackle this multi perspective issue, we adopt an approach of dynamically generating is-a hierarchies according to the viewpoint of users from an ontology using single-inheritance. This article discusses a framework for dynamic is-a hierarchy generation and its implementation as extended function of Hozo. Through the function, the users can understand an ontology from their own viewpoints.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/keisuke-hihara"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/kouji-kozaki"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/riichiro-mizoguchi"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/17/authorlist"/>
+        <rdfs:label>Dynamic is-a Hierarchy Generation for User Centric Semantic Web</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/keisuke-hihara"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/kouji-kozaki"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/riichiro-mizoguchi"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/17/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/kouji-kozaki"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/keisuke-hihara"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/riichiro-mizoguchi"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/4">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/luis-ramos"/>
+        <dc:subject>CAD</dc:subject>
+        <dc:subject>OWL</dc:subject>
+        <dc:subject>SQWRL</dc:subject>
+        <dc:subject>SWRL</dc:subject>
+        <dc:subject>Semantic Web</dc:subject>
+        <dc:title>Ontology-Based Features Recognition and Design Rules Checker System</dc:title>
+        <swrc:abstract>We designed and implemented an Ontology-Based System for Features Recognition and Design Rules Checking. It was developed using Semantic Web technologies. It was implemented by means of the Protégé Application Programming Interface (API), a rule engine and a reasoner. Using ontology in the core of the system enabled the representation of manufacturing rules and Automatic Features recognition. Rules and Queries were not hard coded in the program, so we gave to the system a high level of maintainability and reusability.  Features were classified as general and specifics, easing the work of classifying newer features as they appear, given their previous classification. Most common sheet metal features referred in the literature were recognized by the system. </swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/luis-ramos"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/4/authorlist"/>
+        <rdfs:label>Ontology-Based Features Recognition and Design Rules Checker System</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/luis-ramos"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/4/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/luis-ramos"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/6">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/csongor-nyulas"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/mark-a-musen"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/natalya-noy"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/tania-tudorache"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/timothy-redmond"/>
+        <dc:subject>collaboration</dc:subject>
+        <dc:subject>infrastructure reuse</dc:subject>
+        <dc:subject>interlinking ontologies</dc:subject>
+        <dc:subject>real-world biomedical ontology</dc:subject>
+        <dc:title>iCAT: A Collaborative Authoring Tool for ICD-11</dc:title>
+        <swrc:abstract>We present iCAT—the Collaborative Authoring Tool for the 11th revision of the International Classification of Diseases (ICD-11). ICD is a fundamental health-care resource developed by the World Health Organization (WHO) and applied in all United Nations countries for a variety of uses. A landmark change in this ICD-11 revision compared to previous ones is the use of OWL as a representation language and of Semantic Web technologies for the collaborative authoring of the ICD content. A community of international medical experts develops ICD-11 in a collaborative setting using the Web-based iCAT platform. Besides its extensive collaboration support, iCAT also fosters the interconnectedness of ICD-11 with other biomedical ontologies and terminologies by providing interlinking and reusing capabilities as a fundamental feature of the tool, while also storing the provenance metadata. The generic and extensible infrastructure as well as its declarative user interface allowed us to easily deploy iCAT in a production setting for the development of ICD-11 and two other WHO classifications. The declarative user interface allowed us to custom tailor the platform for domain experts use. iCAT is in production use since October 2009; it was used to author over 105,000 changes in the ICD-11 ontology, to create more than 40,000 cross-links to other biomedical ontologies, and to produce over 19,000 notes and discussions. The software is open source and a demo version of the platform is available at http://icatdemo.stanford.edu.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/csongor-nyulas"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/mark-a-musen"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/natalya-noy"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/tania-tudorache"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/timothy-redmond"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/6/authorlist"/>
+        <rdfs:label>iCAT: A Collaborative Authoring Tool for ICD-11</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/csongor-nyulas"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/mark-a-musen"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/natalya-noy"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/tania-tudorache"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/timothy-redmond"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/6/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/tania-tudorache"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/csongor-nyulas"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/natalya-noy"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/timothy-redmond"/>
+        <rdf:_5 rdf:resource="http://data.semanticweb.org/person/mark-a-musen"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/7">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/joost-schanstra"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/julie-klein"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/panagiotis-moulos"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/simon-jupp"/>
+        <dc:subject>ontologies</dc:subject>
+        <dc:subject>owl</dc:subject>
+        <dc:subject>rdf</dc:subject>
+        <dc:subject>semantic web</dc:subject>
+        <dc:title>Ontologies Come of Age with the iKUP Browser</dc:title>
+        <swrc:abstract>The iKUP browser, a web-based application to the kidney and urinary pathway knowledge base, shows ontologies coming of age by enabling biologists to ask questions of integrated data that form hypotheses that are being tested in the laboratory. That is, semantically annotated data, that are integrated through rich interconnections, have been delivered to the target users in a form that they can use to change how they undertake their job.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/joost-schanstra"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/julie-klein"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/panagiotis-moulos"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/simon-jupp"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/7/authorlist"/>
+        <rdfs:label>Ontologies Come of Age with the iKUP Browser</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/joost-schanstra"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/julie-klein"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/panagiotis-moulos"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/simon-jupp"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/7/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/simon-jupp"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/julie-klein"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/panagiotis-moulos"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/joost-schanstra"/>
+        <rdf:_5 rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/9">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/dhavalkumar-thakker"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/fan-yang-turner"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/lydia-lau"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/vania-dimitrova"/>
+        <dc:subject>Modularisation</dc:subject>
+        <dc:subject>Ontology</dc:subject>
+        <dc:subject>Semantic Annotation</dc:subject>
+        <dc:subject>Sensemaking</dc:subject>
+        <dc:title>Socio-technical Ontology Development for Modelling Sensemaking in Heterogeneous Domains</dc:title>
+        <swrc:abstract>Sensemaking is often associated with processing large or complex amount of data obtained from diverse and distributed sources. With information explosion from the web, sensemaking is becoming ubiquitous and ever more challenging. Semantic technologies have potential to support understanding of sensemaking process with the benefits they bring (e.g. reasoning, aggregation, automation). Conceptual models of sensemaking have been developed to understand its complex processes by social and information scientist; however, these frameworks are not applicable directly to system design. This paper describes a socio-technical approach for modelling sensemaking process in order to inform the development of intelligent services to aid sensemakers. We apply an a priori ontology modularisation methodology for handling complexity of heterogeneous domains and utilise well-known sensemaking theoretical framework to guide ontology development. This approach is applied in an EU project - Dicode, for the development of its sensemaking ontology. </swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/dhavalkumar-thakker"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/fan-yang-turner"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/lydia-lau"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/vania-dimitrova"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/9/authorlist"/>
+        <rdfs:label>Socio-technical Ontology Development for Modelling Sensemaking in Heterogeneous Domains</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/dhavalkumar-thakker"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/fan-yang-turner"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/lydia-lau"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/vania-dimitrova"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/ocas/2011/paper/9/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/dhavalkumar-thakker"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/fan-yang-turner"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/lydia-lau"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/vania-dimitrova"/>
+    </rdf:Description>
+
+    <swc:ProgrammeCommitteeMember rdf:about="http://data.semanticweb.org/workshop/ocas/2011/pcmember">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/benjamin-good"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/boris-villazon-terrazas"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/carlos-toro"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/fabian-neuhaus"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jouni-tuominen"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/leyla-jael-garcia-castro"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/li-ding"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/matthew-horridge"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/michael-gruninger"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/michael-kohlhase"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/mike-dean"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/nigam-shah"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/oliver-kutz"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/oscar-corcho"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/peter-haase"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/raul-garcia-castro"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/raul-palma"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/riichiro-mizoguchi"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/steve-pettifer"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/william-hogan"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/workshop/ocas/2011"/>
+        <rdfs:label>PC Member at ISWC2011 (OCAS Workshop)</rdfs:label>
+    </swc:ProgrammeCommitteeMember>
+
+    <swrc:Proceedings rdf:about="http://data.semanticweb.org/workshop/ocas/2011/proceedings">
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/10"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/11"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/12"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/13"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/17"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/4"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/6"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/7"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/ocas/2011/paper/9"/>
+    </swrc:Proceedings>
+</rdf:RDF>

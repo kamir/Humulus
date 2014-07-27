@@ -1,0 +1,676 @@
+
+<!-- Processed by Id: cwm.py,v 1.197 2007/12/13 15:38:39 syosi Exp -->
+<!--     using base file:///Users/knud/Projekte/dogfood-svn/event-conversions/iswc2011/-->
+
+
+<rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:srwc-ext="http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#">
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011">
+        <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011"/>
+    </rdf:Description>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/deri-nui-galway">
+        <rdfs:label>DERI NUIG</rdfs:label>
+        <rdfs:label>Digital Enterprise Research Institute (DERI), National University of Ireland, Galway</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/brian-davis"/>
+        <member rdf:resource="http://data.semanticweb.org/person/fadi-badra"/>
+        <member rdf:resource="http://data.semanticweb.org/person/paul-buitelaar"/>
+        <member rdf:resource="http://data.semanticweb.org/person/siegfried-handschuh"/>
+        <member rdf:resource="http://data.semanticweb.org/person/tobias-wunner"/>
+        <name>DERI NUIG</name>
+        <name>Digital Enterprise Research Institute (DERI), National University of Ireland, Galway</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/dublin-city-university">
+        <rdfs:label>Dublin City University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/yalemisew-m.-abgaz"/>
+        <name>Dublin City University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki">
+        <rdfs:label>DFKI GmbH</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/thierry-declerck"/>
+        <name>DFKI GmbH</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/icltt-austrian-academy-of-sciences">
+        <rdfs:label>ICLTT, Austrian Academy of Sciences</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/karlheinz-moerth"/>
+        <name>ICLTT, Austrian Academy of Sciences</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/inria-rhone-alpes">
+        <rdfs:label>INRIA</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/fabien-gandon"/>
+        <member rdf:resource="http://data.semanticweb.org/person/maxime-lefrancois"/>
+        <name>INRIA</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/kmi-the-open-university-uk">
+        <rdfs:label>Knowledge Media Institute, The Open University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+        <member rdf:resource="http://data.semanticweb.org/person/lukas-zilka"/>
+        <member rdf:resource="http://data.semanticweb.org/person/maria-maleshkova"/>
+        <member rdf:resource="http://data.semanticweb.org/person/petr-knoth"/>
+        <name>Knowledge Media Institute, The Open University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/linguistics-institute-hungarian-academy-of-science">
+        <rdfs:label>Research Institute for Linguistics,Hungarian Academy of Sciences</rdfs:label>
+        <rdfs:label>Research Institute for Linguistics,Hungarian Academy of Sciences,</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/piroska-lendvai"/>
+        <member rdf:resource="http://data.semanticweb.org/person/tamas-varadi"/>
+        <name>Research Institute for Linguistics,Hungarian Academy of Sciences</name>
+        <name>Research Institute for Linguistics,Hungarian Academy of Sciences,</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/ontology-engineering-group-universidad-politecnica">
+        <rdfs:label>Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid</rdfs:label>
+        <rdfs:label>Ontology Engineering Group. Universidad Politécnica de Madrid</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/asuncion-gomez-perez"/>
+        <member rdf:resource="http://data.semanticweb.org/person/elena-montiel-ponsoda"/>
+        <member rdf:resource="http://data.semanticweb.org/person/jorge-gracia"/>
+        <name>Ontology Engineering Group. Laboratorio de Inteligencia Artificial. Facultad de Informática. Universidad Politécnica de Madrid</name>
+        <name>Ontology Engineering Group. Universidad Politécnica de Madrid</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/osaka-university-japan">
+        <rdfs:label>Osaka University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/yoshihiko-hayashi"/>
+        <name>Osaka University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/trinity-college-dublin">
+        <rdfs:label>Trinity College Dublin</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/alexander-oconnor"/>
+        <member rdf:resource="http://data.semanticweb.org/person/david-lewis"/>
+        <member rdf:resource="http://data.semanticweb.org/person/dominic-jones"/>
+        <name>Trinity College Dublin</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/universidad-de-granada">
+        <rdfs:label>University of Granada</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/pamela-faber"/>
+        <member rdf:resource="http://data.semanticweb.org/person/pedro-j.-magana-redondo"/>
+        <member rdf:resource="http://data.semanticweb.org/person/pilar-leon-arauz"/>
+        <name>University of Granada</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid">
+        <rdfs:label>Universidad Politécnica de Madrid</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/guadalupe-aguado-de-cea"/>
+        <name>Universidad Politécnica de Madrid</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-bremen">
+        <rdfs:label>University of Bremen</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/dimitra-anastasiou"/>
+        <name>University of Bremen</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-manchester-uk">
+        <rdfs:label>The University of Manchester</rdfs:label>
+        <rdfs:label>University of Manchester</rdfs:label>
+        <rdfs:label>the University of Manchester</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/alan-rector"/>
+        <member rdf:resource="http://data.semanticweb.org/person/fennie-liang"/>
+        <member rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+        <name>The University of Manchester</name>
+        <name>University of Manchester</name>
+        <name>the University of Manchester</name>
+    </Organization>
+
+    <Person rdf:about="http://data.semanticweb.org/person/alan-rector">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-manchester-uk"/>
+        <rdfs:label>Alan Rector</rdfs:label>
+        <homepage rdf:resource="http://www.cs.man.ac.uk/~rector"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/9"/>
+        <name>Alan Rector</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/alexander-oconnor">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/trinity-college-dublin"/>
+        <rdfs:label>Alexander O’connor</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/8"/>
+        <name>Alexander O’connor</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/asuncion-gomez-perez">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/ontology-engineering-group-universidad-politecnica"/>
+        <rdfs:label>Asunción Gómez-Pérez</rdfs:label>
+        <homepage rdf:resource="http://www.oeg-upm.net/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/2"/>
+        <name>Asunción Gómez-Pérez</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/brian-davis">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+        <rdfs:label>Brian Davis</rdfs:label>
+        <homepage rdf:resource="http://www.deri.ie/about/team/member/brian_davis/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/12"/>
+        <name>Brian Davis</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/carlos-pedrinaci">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+        <rdfs:label>Carlos Pedrinaci</rdfs:label>
+        <homepage rdf:resource="http://kmi.open.ac.uk/people/carlos/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/7"/>
+        <name>Carlos Pedrinaci</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/david-lewis">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/trinity-college-dublin"/>
+        <rdfs:label>David Lewis</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/8"/>
+        <name>David Lewis</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/dimitra-anastasiou">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-bremen"/>
+        <rdfs:label>Dimitra Anastasiou</rdfs:label>
+        <homepage rdf:resource="http://www.d-anastasiou.com"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/4"/>
+        <name>Dimitra Anastasiou</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/dominic-jones">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/trinity-college-dublin"/>
+        <rdfs:label>Dominic Jones</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/8"/>
+        <name>Dominic Jones</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/elena-montiel-ponsoda">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/ontology-engineering-group-universidad-politecnica"/>
+        <rdfs:label>Elena Montiel-Ponsoda</rdfs:label>
+        <homepage rdf:resource="http://www.oeg-upm.net/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/2"/>
+        <name>Elena Montiel-Ponsoda</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/fabien-gandon">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/inria-rhone-alpes"/>
+        <rdfs:label>Fabien Gandon</rdfs:label>
+        <homepage rdf:resource="http://www-sop.inria.fr/members/Fabien.Gandon/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/1"/>
+        <name>Fabien Gandon</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/fadi-badra">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+        <rdfs:label>Fadi Badra</rdfs:label>
+        <homepage rdf:resource="http://www.deri.ie/about/team/member/fadi_badra/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/12"/>
+        <name>Fadi Badra</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/fennie-liang">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-manchester-uk"/>
+        <rdfs:label>Fennie Liang</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/9"/>
+        <name>Fennie Liang</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/guadalupe-aguado-de-cea">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidad-politecnica-de-madrid"/>
+        <rdfs:label>Guadalupe Aguado-De-Cea</rdfs:label>
+        <homepage rdf:resource="http://parla.dia.fi.upm.es/oeg/jsp/frames.jsp"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/2"/>
+        <name>Guadalupe Aguado-De-Cea</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jorge-gracia">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/ontology-engineering-group-universidad-politecnica"/>
+        <rdfs:label>Jorge Gracia</rdfs:label>
+        <homepage rdf:resource="http://www.oeg-upm.net/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/2"/>
+        <name>Jorge Gracia</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/karlheinz-moerth">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/icltt-austrian-academy-of-sciences"/>
+        <rdfs:label>Karlheinz Moerth</rdfs:label>
+        <homepage rdf:resource="http://www.oeaw.ac.at/icltt/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/13"/>
+        <name>Karlheinz Moerth</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/lukas-zilka">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+        <rdfs:label>Lukas Zilka</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/7"/>
+        <name>Lukas Zilka</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/maria-maleshkova">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+        <rdfs:label>Maria Maleshkova</rdfs:label>
+        <homepage rdf:resource="http://kmi.open.ac.uk/people/member/maria-maleshkova"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/7"/>
+        <name>Maria Maleshkova</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/maxime-lefrancois">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/inria-rhone-alpes"/>
+        <rdfs:label>Maxime Lefrançois</rdfs:label>
+        <homepage rdf:resource="http://www-sop.inria.fr/members/Maxime.Lefrancois/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/1"/>
+        <name>Maxime Lefrançois</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/pamela-faber">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidad-de-granada"/>
+        <rdfs:label>Pamela Faber</rdfs:label>
+        <homepage rdf:resource="http://lexicon.ugr.es/faber"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/3"/>
+        <name>Pamela Faber</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/paul-buitelaar">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+        <rdfs:label>Paul Buitlelaar</rdfs:label>
+        <homepage rdf:resource="http://www.deri.ie/about/team/member/paul_buitelaar/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/12"/>
+        <name>Paul Buitlelaar</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/pedro-j.-magana-redondo">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidad-de-granada"/>
+        <rdfs:label>Pedro J. Magaña Redondo</rdfs:label>
+        <homepage rdf:resource="http://lexicon.ugr.es/magana"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/3"/>
+        <name>Pedro J. Magaña Redondo</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/petr-knoth">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/kmi-the-open-university-uk"/>
+        <rdfs:label>Petr Knoth</rdfs:label>
+        <homepage rdf:resource="http://kmi.open.ac.uk/people/member/petr-knoth"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/7"/>
+        <name>Petr Knoth</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/pilar-leon-arauz">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidad-de-granada"/>
+        <rdfs:label>Pilar León Araúz</rdfs:label>
+        <homepage rdf:resource="http://lexicon.ugr.es/leon"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/3"/>
+        <name>Pilar León Araúz</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/piroska-lendvai">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/linguistics-institute-hungarian-academy-of-science"/>
+        <rdfs:label>Piroska Lendvai</rdfs:label>
+        <homepage rdf:resource="http://www.nytud.hu/depts/corpus/index.html"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/13"/>
+        <name>Piroska Lendvai</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/robert-stevens">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-manchester-uk"/>
+        <rdfs:label>Robert Stevens</rdfs:label>
+        <homepage rdf:resource="http://www.cs.man.ac.uk/~stevensr"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/9"/>
+        <name>Robert Stevens</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/siegfried-handschuh">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+        <rdfs:label>Siegfried Handschuh</rdfs:label>
+        <homepage rdf:resource="http://siegfried-handschuh.net"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/12"/>
+        <name>Siegfried Handschuh</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/tamas-varadi">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/linguistics-institute-hungarian-academy-of-science"/>
+        <rdfs:label>Tamás Váradi</rdfs:label>
+        <homepage rdf:resource="http://www.nytud.hu/depts/corpus/index.html"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/13"/>
+        <name>Tamás Váradi</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/thierry-declerck">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki"/>
+        <rdfs:label>Thierry Declerck</rdfs:label>
+        <homepage rdf:resource="http://www.dfki.de/~declerck/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/13"/>
+        <name>Thierry Declerck</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/tobias-wunner">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/deri-nui-galway"/>
+        <rdfs:label>Tobias Wunner</rdfs:label>
+        <homepage rdf:resource="http://www.deri.ie/about/team/member/tobias_wunner/"/>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/12"/>
+        <name>Tobias Wunner</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/yalemisew-m.-abgaz">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/dublin-city-university"/>
+        <rdfs:label>Yalemisew M. Abgaz</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/8"/>
+        <name>Yalemisew M. Abgaz</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/yoshihiko-hayashi">
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/osaka-university-japan"/>
+        <rdfs:label>Yoshihiko Hayashi</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/6"/>
+        <name>Yoshihiko Hayashi</name>
+    </Person>
+
+    <swc:WorkshopEvent rdf:about="http://data.semanticweb.org/workshop/msw/2011">
+        <swc:completeGraph rdf:resource="http://data.semanticweb.org/workshop/msw/2011/complete"/>
+        <swc:hasAcronym>MSW2011</swc:hasAcronym>
+        <swc:hasLocation rdf:resource="http://data.semanticweb.org/conference/iswc/2011/place/lenne"/>
+        <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/workshop/msw/2011/chair"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/workshop/msw"/>
+        <swrc:abstract>Multilingualism has become an issue of major interest for the Semantic Web community, in light of the substantial growth of internet users that create and update knowledge all over the world in languages other than English. This process has been accelerated due to initiatives such as the Linked Data initiative, which encourages not only governments and public institutes to make their data available to the public, but also private organizations in domains as far apart as medicine, cartography or music. These actors publish their data sources in the languages they are available in, and as such, in order to make this information available to an international community, multilingual knowledge representation, access and translation are an impending need. Building on the success of the first edition of this workshop, we have organized a second workshop focusing on topics such as the representation of multilingual information in the Semantic Web, cross-lingual querying, multilingual mapping, machine translation, and localization strategies for the Semantic Web.</swrc:abstract>
+        <rdfs:label>2nd Workshop on the Multilingual Semantic Web</rdfs:label>
+        <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ical:dtend>
+        <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T09:00:00+02:00</ical:dtstart>
+        <ical:url rdf:resource="http://msw2.deri.ie/"/>
+        <homepage rdf:resource="http://msw2.deri.ie/"/>
+    </swc:WorkshopEvent>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/1">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/fabien-gandon"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/maxime-lefrancois"/>
+        <dc:subject>Explanatory Combinatorial Lexicology</dc:subject>
+        <dc:subject>Interlingual Lexical Ontology</dc:subject>
+        <dc:subject>Interlingual Lexical Primitives</dc:subject>
+        <dc:subject>Meaning Text Theory</dc:subject>
+        <dc:subject>Semantic Web</dc:subject>
+        <dc:subject>Semantic decomposition</dc:subject>
+        <dc:title>ULiS: An Expert System on Linguistics to Support Multilingual Management of Interlingual Semantic Web Knowledge bases</dc:title>
+        <swrc:abstract>We are interested in bridging the world of natural language and theworld of the semantic web in particular to support multilingual access to theweb of data. In this paper we introduce the ULiS project, that aims at designinga pivot-based NLP technique called Universal Linguistic System, 100% usingthe semantic web formalisms, and being compliant with the Meaning-Texttheory. Through the ULiS, a user could interact with an interlingual knowledgebase (IKB) in controlled natural language. Linguistic resources themselves arepart of a specific IKB: The Universal Lexical Knowledge base (ULK), so thatactors may enhance their controlled natural language, through requests in controllednatural language. We describe a basic interaction scenario at the systemlevel, and provide an overview of the architecture of ULiS. We then introducethe core of the ULiS: the interlingual lexical ontology (ILexicOn), in whicheach interlingual lexical unit class (ILUc) supports the projection of its semanticdecomposition on itself. We validate our model with a standalone ILexicOn,and introduce and explain a concise human-readable notation for it.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/fabien-gandon"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/maxime-lefrancois"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/1/authorlist"/>
+        <rdfs:label>ULiS: An Expert System on Linguistics to Support Multilingual Management of Interlingual Semantic Web Knowledge bases</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/fabien-gandon"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/maxime-lefrancois"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/1/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/maxime-lefrancois"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/fabien-gandon"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/12">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/brian-davis"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/fadi-badra"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/paul-buitelaar"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/siegfried-handschuh"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/tobias-wunner"/>
+        <dc:subject>NLP frameworks</dc:subject>
+        <dc:subject>Ontology Based Information Extraction</dc:subject>
+        <dc:subject>Ontology lexicalisation</dc:subject>
+        <dc:subject>Semantic Annotation</dc:subject>
+        <dc:title>Squeezing lemon with GATE</dc:title>
+        <swrc:abstract>OntoVerbal-M is an ontology verbaliser that transforms OWL intofluent natural language paragraphs in multiple languages. We describe theapplication of OntoVerbal-M to SNOMED CT, whereby SNOMED CT classesare presented as textual paragraphs in both English and Mandarin through theuse of natural language generation. SNOMED CT is a large description logicbased terminology for recording in electronic health records. Often, neither thelabels nor the description logic definitions in SNOMED CT are easy for usersto understand. Furthermore, information is increasingly being recorded, not justusing individual SNOMED CT concepts, but using dynamically createddescription logic expressions (“post-coordinated” concepts). Such postcoordinatedexpressions can have no pre-assigned labels. In this contextautomatic verbalisation into multiple languages will be useful both forunderstanding and quality assurance of SNOMED CT definitions, and forhelping different language-speaking-users to understand and share postcoordinatedexpressions.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/brian-davis"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/fadi-badra"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/paul-buitelaar"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/siegfried-handschuh"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/tobias-wunner"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/12/authorlist"/>
+        <rdfs:label>Squeezing lemon with GATE</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/brian-davis"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/fadi-badra"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/paul-buitelaar"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/siegfried-handschuh"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/tobias-wunner"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/12/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/brian-davis"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/fadi-badra"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/paul-buitelaar"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/siegfried-handschuh"/>
+        <rdf:_5 rdf:resource="http://data.semanticweb.org/person/tobias-wunner"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/13">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/karlheinz-moerth"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/piroska-lendvai"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/tamas-varadi"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/thierry-declerck"/>
+        <dc:subject>Cultural Heritage</dc:subject>
+        <dc:subject>LOD</dc:subject>
+        <dc:subject>Multilinguality</dc:subject>
+        <dc:subject>Semantic Annotation</dc:subject>
+        <dc:title>Accessing Multilingual Data on the Web for the Semantic Annotation of Cultural Heritage Texts</dc:title>
+        <swrc:abstract>Our study targets interoperable semantic annotation of CulturalHeritage or eHumanities texts in German and Hungarian. A semantic resourcewe focus on is the Thompson Motif-index of folk-literature (TMI), the labels ofwhich are available only in English. We investigate the use lexical data on theWeb in German and Hungarian for supporting semi-automatic translation ofTMI: lexical resources offered by Wiktionary accessed via the Lexvo service,and discuss shortcomings of those resources. An approach for mapping theXML dump of Wiktionary onto a TEI and MAF compliant data is presented,whereby we discuss improvements in the representation of Wiktionary data forexploiting its multilingual value within the LOD framework.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/karlheinz-moerth"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/piroska-lendvai"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/tamas-varadi"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/thierry-declerck"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/13/authorlist"/>
+        <rdfs:label>Accessing Multilingual Data on the Web for the Semantic Annotation of Cultural Heritage Texts</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/karlheinz-moerth"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/piroska-lendvai"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/tamas-varadi"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/thierry-declerck"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/13/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/karlheinz-moerth"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/thierry-declerck"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/piroska-lendvai"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/tamas-varadi"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/2">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/asuncion-gomez-perez"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/elena-montiel-ponsoda"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/guadalupe-aguado-de-cea"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jorge-gracia"/>
+        <dc:subject>lemon model</dc:subject>
+        <dc:subject>multilingual Linked Data</dc:subject>
+        <dc:subject>multilingual Semantic Web</dc:subject>
+        <dc:subject>translation relations</dc:subject>
+        <dc:title>Representing Translations on the Semantic Web</dc:title>
+        <swrc:abstract>The increase of ontologies and data sets published in theWeb in languages other than English raises some issues related to therepresentation of linguistic (multilingual) information in ontologies. Suchlinguistic descriptions can contribute to the establishment of links betweenontologies and data sets described in multiple natural languagesin the Linked Open Data cloud. For these reasons, several models havebeen proposed recently to enable richer linguistic descriptions in ontologies.Among them, we nd lemon, an RDF ontology-lexicon model thatdenes specic modules for dierent types of linguistic descriptions. Inthis contribution we propose a new module to represent translation relationsbetween lexicons in dierent natural languages associated to thesame ontology or belonging to dierent ontologies. This module can enablethe representation of dierent types of translation relations, as wellas translation metadata such as provenance or the reliability score oftranslations.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/asuncion-gomez-perez"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/elena-montiel-ponsoda"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/guadalupe-aguado-de-cea"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/jorge-gracia"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/2/authorlist"/>
+        <rdfs:label>Representing Translations on the Semantic Web</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/asuncion-gomez-perez"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/elena-montiel-ponsoda"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/guadalupe-aguado-de-cea"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/jorge-gracia"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/2/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/elena-montiel-ponsoda"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/jorge-gracia"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/guadalupe-aguado-de-cea"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/asuncion-gomez-perez"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/3">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/pamela-faber"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/pedro-j.-magana-redondo"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/pilar-leon-arauz"/>
+        <dc:subject>Knowledge representation</dc:subject>
+        <dc:subject>Linked Data</dc:subject>
+        <dc:subject>Multilinguality</dc:subject>
+        <dc:subject>Terminology</dc:subject>
+        <dc:title>Linking Domain-Specific Knowledge to Encyclopedic Knowledge: an Initial Approach to Linked Data</dc:title>
+        <swrc:abstract>Linked Data creates a shared information space by publishing andconnecting resources in the Semantic Web. However, the specification ofsemantic relationships between data sources is still a stumbling block. Onesolution is to enrich ontologies with multilingual and concept-orientedinformation. Usefully linking entities in the Semantic Web is thus facilitated bya semantic-oriented cross-lingual ontology mapping framework in whichknowledge representations are not restricted to a particular natural language.Accordingly, this paper describes a preliminary approach for integrating generalencyclopedic knowledge in DBpedia with EcoLexicon, a multilingualterminological knowledge base on the environment.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/pamela-faber"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/pedro-j.-magana-redondo"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/pilar-leon-arauz"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/3/authorlist"/>
+        <rdfs:label>Linking Domain-Specific Knowledge to Encyclopedic Knowledge: an Initial Approach to Linked Data</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/pamela-faber"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/pedro-j.-magana-redondo"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/pilar-leon-arauz"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/3/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/pilar-leon-arauz"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/pamela-faber"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/pedro-j.-magana-redondo"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/4">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/dimitra-anastasiou"/>
+        <dc:subject>Conversion</dc:subject>
+        <dc:subject>Localisation</dc:subject>
+        <dc:subject>Semantic Web Standards</dc:subject>
+        <dc:title>XSLT Conversion between XLIFF and RDF</dc:title>
+        <swrc:abstract>This paper focuses on the conversion between the open standard XML Localisation Interchange File Format (XLIFF) and the Resource Description Framework (RDF). XLIFF is a localisation standard supported by proprietary and free and open source software (FOSS) localisation tools, while the latter is a standard model, basic ingredient in Semantic Web. We developed a converter based on Saxon XSLT Processor which translates XLIFF to RDF.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/dimitra-anastasiou"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/4/authorlist"/>
+        <rdfs:label>XSLT Conversion between XLIFF and RDF</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/dimitra-anastasiou"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/4/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/dimitra-anastasiou"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/6">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/yoshihiko-hayashi"/>
+        <dc:subject>cross-language semantic similarity</dc:subject>
+        <dc:subject>lexical linked data</dc:subject>
+        <dc:subject>lexicon models</dc:subject>
+        <dc:subject>multilingual lexical resources</dc:subject>
+        <dc:title>Direct and Indirect Linking of Lexical Objects for Evolving Lexical Linked Data</dc:title>
+        <swrc:abstract>Servicization of language resources in a Web-based environ-ment has opened up the potential for dynamically combined virtual lex-ical resources. Evolving lexical linked data could be realized, providedbeing recovered/discovered links among lexical resources are properlyorganized and maintained. This position paper examines a scenario, inwhich lexical semantic resources are cross-linguistically enriched, andsketches how this scenario could come about while discussing necessaryingredients. The discussions naturally include how the existing lexiconmodeling framework could be applied and should be extended.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/yoshihiko-hayashi"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/6/authorlist"/>
+        <rdfs:label>Direct and Indirect Linking of Lexical Objects for Evolving Lexical Linked Data</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/yoshihiko-hayashi"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/6/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/yoshihiko-hayashi"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/7">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/lukas-zilka"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/maria-maleshkova"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/petr-knoth"/>
+        <dc:subject>Cross-language Information Retrieval</dc:subject>
+        <dc:subject>Explicit Semantic Analysis</dc:subject>
+        <dc:subject>Semantic Similarity</dc:subject>
+        <dc:subject>Semantic Web API Descriptions</dc:subject>
+        <dc:subject>Web API Classification</dc:subject>
+        <dc:title>Cross-Lingual Web API Classification and Annotation</dc:title>
+        <swrc:abstract>Recent developments on the Web are marked by the growingsupport for the Linked Data initiative, which encourages governmentand public organisations, as well as private institutions, to expose theirdata on the Web. This results in a plentitude of multi-lingual documentcollections where the original resources are published in the language,in which they are available. The challenges of multilingualism presenton the Semantic Web are also reected in the context of services on theWeb, characterised by the rapid increase in popularity and use of WebAPIs, as indicated by the growing number of available APIs and theapplications built on top of them. Web APIs are commonly described inplain-text as part of Web pages, following no particular guidelines andconforming to no standards, despite some initial approaches in the area[1, 2]. Therefore, API providers publish descriptions in any language theysee t, making the service discovery and the subsequent processing of thedocumentation challenging tasks. In this paper, we present a cross-lingualapproach that calculates semantic similarity of text to help classify andannotateWeb APIs, based on their textual descriptions. Furthermore, weshow how our solution can be implemented as part of SWEET [3], whichis a tool that enables the semi-automated creation of semantic Web APIdescriptions. In addition, we demonstrate how the cross-lingual approachcan be adopted to support the language-independent discovery of WebAPIs.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/lukas-zilka"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/maria-maleshkova"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/petr-knoth"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/7/authorlist"/>
+        <rdfs:label>Cross-Lingual Web API Classification and Annotation</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/lukas-zilka"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/maria-maleshkova"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/petr-knoth"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/7/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/maria-maleshkova"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/lukas-zilka"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/petr-knoth"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/carlos-pedrinaci"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/8">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/alexander-oconnor"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/david-lewis"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/dominic-jones"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/yalemisew-m.-abgaz"/>
+        <dc:subject>Content Management</dc:subject>
+        <dc:subject>Language Technology and Interoperability</dc:subject>
+        <dc:subject>Localisation</dc:subject>
+        <dc:subject>Multilingual Web</dc:subject>
+        <dc:title>A Semantic Model for Integrated Content Management, Localisation and Language Technology Processing</dc:title>
+        <swrc:abstract>Providers of products and services are faced with the dual challengeof supporting the languages and individual needs of the global customer whilealso accommodating the increasing relevance of user-generated content. As aresult, the content and localisation industries must now evolve rapidly frommanually processing predicable content which arrives in large jobs to the highlyautomated processing of streams of fast moving, heterogeneous andunpredictable content. This requires a new generation of digital contentmanagement technologies that combine the agile flow of content fromdevelopers to localisers and consumers with the data-driven languagetechnologies needed to handle the volume of content required to feed thedemands of global markets. Data-driven technologies such as statisticalmachine translation, cross-lingual information retrieval, sentiment analysis andautomatic speech recognition, all rely on high quality training content, which inturn must be continually harvested based on the human quality judgments madeacross the end-to-end content processing flow. This paper presents themotivation, approach and initial semantic models of a collection of researchdemonstrators where they represent a part of, or a step towards, documenting ina semantic model the multi-lingual semantic web.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/alexander-oconnor"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/david-lewis"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/dominic-jones"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/yalemisew-m.-abgaz"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/8/authorlist"/>
+        <rdfs:label>A Semantic Model for Integrated Content Management, Localisation and Language Technology Processing</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/alexander-oconnor"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/david-lewis"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/dominic-jones"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/yalemisew-m.-abgaz"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/8/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/dominic-jones"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/alexander-oconnor"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/yalemisew-m.-abgaz"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/david-lewis"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/9">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/workshop/msw/2011/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/alan-rector"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/fennie-liang"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+        <dc:subject>Multilingual Generation</dc:subject>
+        <dc:subject>Ontology Verbalisation</dc:subject>
+        <dc:subject>Ontology verbaliser</dc:subject>
+        <dc:subject>SNOMED verbalisation</dc:subject>
+        <dc:title>OntoVerbal-M: a Multilingual Verbaliser for SNOMED CT</dc:title>
+        <swrc:abstract>OntoVerbal-M is an ontology verbaliser that transforms OWL intofluent natural language paragraphs in multiple languages. We describe theapplication of OntoVerbal-M to SNOMED CT, whereby SNOMED CT classesare presented as textual paragraphs in both English and Mandarin through theuse of natural language generation. SNOMED CT is a large description logicbased terminology for recording in electronic health records. Often, neither thelabels nor the description logic definitions in SNOMED CT are easy for usersto understand. Furthermore, information is increasingly being recorded, not justusing individual SNOMED CT concepts, but using dynamically createddescription logic expressions (“post-coordinated” concepts). Such postcoordinatedexpressions can have no pre-assigned labels. In this contextautomatic verbalisation into multiple languages will be useful both forunderstanding and quality assurance of SNOMED CT definitions, and forhelping different language-speaking-users to understand and share postcoordinatedexpressions.</swrc:abstract>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/alan-rector"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/fennie-liang"/>
+        <swrc:author rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+        <srwc-ext:authorList rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/9/authorlist"/>
+        <rdfs:label>OntoVerbal-M: a Multilingual Verbaliser for SNOMED CT</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/alan-rector"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/fennie-liang"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/workshop/msw/2011/paper/9/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/fennie-liang"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/robert-stevens"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/alan-rector"/>
+    </rdf:Description>
+
+    <swrc:Proceedings rdf:about="http://data.semanticweb.org/workshop/msw/2011/proceedings">
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/1"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/12"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/13"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/2"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/3"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/4"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/6"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/7"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/8"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/workshop/msw/2011/paper/9"/>
+    </swrc:Proceedings>
+</rdf:RDF>

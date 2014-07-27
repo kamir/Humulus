@@ -1,0 +1,1949 @@
+
+<!-- Processed by Id: cwm.py,v 1.197 2007/12/13 15:38:39 syosi Exp -->
+<!--     using base file:///Users/knud/Projekte/dogfood-svn/event-conversions/dublin_core_2010/-->
+
+
+<rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:ical="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#">
+
+    <swc:ConferenceEvent rdf:about="http://data.semanticweb.org/conference/dc/2010">
+        <swc:completeGraph rdf:resource="http://data.semanticweb.org/conference/dc/2010/complete"/>
+        <swc:hasAcronym>DC-2010</swc:hasAcronym>
+        <swc:hasLogo rdf:resource="http://data.semanticweb.org/images/logo_dc2010.jpg"/>
+        <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/conference-committee-chair"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/program-committee-chair"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial-chair"/>
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/workshop-convenor"/>
+        <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/keynote/1"/>
+        <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/keynote/2"/>
+        <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/1"/>
+        <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/2"/>
+        <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/3"/>
+        <swc:isSuperEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/4"/>
+        <rdfs:label>10th International Conference on Dublin Core and Metadata Applications</rdfs:label>
+        <ical:dtend>2010-10-22</ical:dtend>
+        <ical:dtstart>2010-10-20</ical:dtstart>
+        <ical:url rdf:resource="http://dc-2010.org/"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/Pittsburgh"/>
+        <based_near rdf:resource="http://sws.geonames.org/5206379/"/>
+        <based_near rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+            <geo:lat>40.44</geo:lat>
+            <geo:long>-80.00</geo:long>
+        </based_near>
+        <based_near rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+            <geo:lat>40.44</geo:lat>
+            <geo:long>-80.00</geo:long>
+        </based_near>
+        <homepage rdf:resource="http://dc-2010.org/"/>
+    </swc:ConferenceEvent>
+
+    <swc:Chair rdf:about="http://data.semanticweb.org/conference/dc/2010/conference-committee-chair">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/stuart-a-sutton"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Conference committee chair</rdfs:label>
+    </swc:Chair>
+
+    <swc:KeynoteTalk rdf:about="http://data.semanticweb.org/conference/dc/2010/keynote/1">
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/keynote/1/keynote-presenter"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>A Metadata trajectory: What 15 years of Dublin Core tells us about our future</rdfs:label>
+        <ical:dtend>2010-10-21T09:45:00-05:00</ical:dtend>
+        <ical:dtstart>2010-10-21T09:00:00-05:00</ical:dtstart>
+        <ical:summary>A Metadata trajectory: What 15 years of Dublin Core tells us about our future</ical:summary>
+        <ical:url rdf:resource="http://www.dublincore.org/workshops/dc2010/DC-2010_20101021_Weibel_keynote.pdf"/>
+        <homepage rdf:resource="http://www.dublincore.org/workshops/dc2010/DC-2010_20101021_Weibel_keynote.pdf"/>
+    </swc:KeynoteTalk>
+
+    <swc:Presenter rdf:about="http://data.semanticweb.org/conference/dc/2010/keynote/1/keynote-presenter">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/stuart-l-weibel"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010/keynote/1"/>
+        <rdfs:label>Keynote Presenter</rdfs:label>
+    </swc:Presenter>
+
+    <swc:KeynoteTalk rdf:about="http://data.semanticweb.org/conference/dc/2010/keynote/2">
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/keynote/2/keynote-presenter"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Bridging the Gaps: Adaptive Approaches to Data Interoperability</rdfs:label>
+        <ical:dtend>2010-10-22T09:45:00-05:00</ical:dtend>
+        <ical:dtstart>2010-10-22T09:00:00-05:00</ical:dtstart>
+        <ical:summary>Bridging the Gaps: Adaptive Approaches to Data Interoperability</ical:summary>
+        <ical:url rdf:resource="http://www.dublincore.org/workshops/dc2010/DC-2010_20101022_Bergman_keynote.pdf"/>
+        <homepage rdf:resource="http://www.dublincore.org/workshops/dc2010/DC-2010_20101022_Bergman_keynote.pdf"/>
+    </swc:KeynoteTalk>
+
+    <swc:Presenter rdf:about="http://data.semanticweb.org/conference/dc/2010/keynote/2/keynote-presenter">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/michael-k-bergman"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010/keynote/2"/>
+        <rdfs:label>Keynote Presenter</rdfs:label>
+    </swc:Presenter>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1004">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/hannah-tarver"/>
+        <dc:title>Better Guidelines, Better Functionality: How Metadata Supports the Cycle of System Improvement at UNT</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1004/authorlist"/>
+        <swrc:abstract>The University of North Texas (UNT) Libraries recently revised their Metadata Input Guidelines in order to improve usability and accessibility for metadata writers, and to enhance the quality of metadata that drives new features in their digital systems.  This paper describes important considerations in the revision process and also demonstrates the relationship between quality metadata and system functionality that ultimately benefits both metadata creators and system end-users.
+ Keywords: metadata; input guidelines; schemas; system functionality; quality control; faceted searching</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1004"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Better Guidelines, Better Functionality: How Metadata Supports the Cycle of System Improvement at UNT</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/hannah-tarver"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1004/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/hannah-tarver"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1005">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/christine-sommo"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/paul-asman"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/san-cannon"/>
+        <dc:title>Extending RSS to Meet Central Bank Needs</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1005/authorlist"/>
+        <swrc:abstract>The Federal Reserve wanted to use RSS to represent not only news, such as press releases, but also data, such as exchange rates. The Fed hoped to use one set of feeds to accommodate two different audiences for RSS, human readers (at one remove) and self-contained automated processes. While the different RSS specifications provide elements for traditional news items, they require extensions to handle data. Since central banks all tend to report the same sorts of information, the Fed joined with other central banks to create an extended specification that met their needs. This specification extends RSS 1.0, which is the more readily extended RSS specification. The extension uses elements from established metadata standards wherever it can, such as for language and audience, and adds elements when subjects are not found in those standards or are more particular to central banks, such as (monetary) currency. Although the central banks intend these new elements to be used primarily by machine processes, the element names have sufficient semantic transparency so that they can be understood by human readers.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1005"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Extending RSS to Meet Central Bank Needs</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/christine-sommo"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/paul-asman"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/san-cannon"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1005/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/paul-asman"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/san-cannon"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/christine-sommo"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/alice-hermann"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/christine-vanoirbeek"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jacques-ducloy"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jean-charles-lamirel"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jean-pierre-thomesse"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/muriel-foulonneau"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/stephane-sire"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/thierry-daunois"/>
+        <dc:title>Metadata for WICRI, a Network of Semantic Wikis for Communities in Research and Innovation</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007/authorlist"/>
+        <swrc:abstract>This paper introduces metadata issues in the framework of the WICRI project, a network of semantic wikis for communities in research and innovation. A wiki can be related to an institution, to a research field (mainly, environment or ICT at this time), or to a regional entity. Metadata and semantic items play the strategic role to handle the quality and the consistency of the network. An important point deals with the “wiki way of working” in which a metadata specialist and a scientist, familiar with abstract formalisms, can work altogether, at the same time, on the same pages. Some first experiments of designing metadata are presented. A wiki, encyclopedia of metadata, is proposed, and related technical issues are discussed.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1007"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Metadata for WICRI, a Network of Semantic Wikis for Communities in Research and Innovation</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/alice-hermann"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/christine-vanoirbeek"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/jacques-ducloy"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/jean-charles-lamirel"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/jean-pierre-thomesse"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/muriel-foulonneau"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/stephane-sire"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/thierry-daunois"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/jacques-ducloy"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/thierry-daunois"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/muriel-foulonneau"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/alice-hermann"/>
+        <rdf:_5 rdf:resource="http://data.semanticweb.org/person/jean-charles-lamirel"/>
+        <rdf:_6 rdf:resource="http://data.semanticweb.org/person/stephane-sire"/>
+        <rdf:_7 rdf:resource="http://data.semanticweb.org/person/jean-pierre-thomesse"/>
+        <rdf:_8 rdf:resource="http://data.semanticweb.org/person/christine-vanoirbeek"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1009">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/douglas-donald-dunlop"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/stephanie-ogeneski-christensen"/>
+        <dc:title>The Case for Implementing Core Descriptive Embedded Metadata at the Smithsonian</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1009/authorlist"/>
+        <swrc:abstract>The current mandate to digitize all collections at the Smithsonian Institution along with the increasing need to share data and increase access to collections has made it essential to establish institutional metadata standards, including those for embedding metadata.  This paper documents the ongoing process of establishing core embedded metadata within the institution through the work of the Smithsonian Embedded Metadata Group, which is pan-institutional in nature and includes museums, libraries, archives, and research institutes.  The focus of the working group described within this paper is the creation of core embedded metadata fields for use in still images.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1009"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>The Case for Implementing Core Descriptive Embedded Metadata at the Smithsonian</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/douglas-donald-dunlop"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/stephanie-ogeneski-christensen"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1009/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/stephanie-ogeneski-christensen"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/douglas-donald-dunlop"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1010">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jennifer-b-bowen"/>
+        <dc:title>Moving Library Metadata Toward Linked Data:  Opportunities Provided by the eXtensible Catalog</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1010/authorlist"/>
+        <swrc:abstract>To ensure that they can participate in the Semantic Web, libraries need to prepare their legacy metadata for use as linked data. eXtensible Catalog (XC) software facilitates converting legacy library data into linked data using a platform that enables risk-free experimentation and that can be used to address problems with legacy metadata using batch services. The eXtensible Catalog also provides “lessons learned” regarding the conversion of legacy data to linked data by demonstrating what MARC metadata elements can be transformed to linked data, and helping to suggest priorities for the cleanup and enrichment of legacy data. Converting legacy metadata to linked data will require a team of experts, including  MARC-based catalogers, specialists in other metadata schemas, software developers, and Semantic Web experts to design and test normalization/conversion algorithms, develop new schemas, and prepare individual records for automated conversion.  Library software applications that do not depend upon linked data may currently have little incentive to enable its use.  However, given recent advances in registering legacy library vocabularies, converting national library catalogs to linked data, and the availability of open source software such as XC to convert legacy data to linked data, libraries may soon find it difficult to justify continuing to create metadata that is not linked data compliant.  The library community can now begin to propose smart practices for using linked data, and can encourage library system developers to implement linked data. XC is demonstrating that implementing linked data, and converting legacy library data to linked data, are indeed achievable.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1010"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Moving Library Metadata Toward Linked Data:  Opportunities Provided by the eXtensible Catalog</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/jennifer-b-bowen"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1010/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/jennifer-b-bowen"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1013">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/andrea-kathleen-wiggins"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jian-qin"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/miao-chen"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/xiaozhong-liu"/>
+        <dc:title>Linking Entities in Scientific Metadata</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1013/authorlist"/>
+        <swrc:abstract>Linked entity data in metadata records builds a foundation for semantic web. Even though metadata records contain rich entity data, there is no linking between associated entities such as persons, datasets, projects, publications, or organizations. We conducted a small experiment using the dataset collection from the Hubbard Brook Ecosystem Study (HBES), in which we converted the entities and their relationships into RDF triples and linked the URIs contained in RDF triples to the corresponding entities in the Ecological Metadata Language (EML) records. Through the transformation program written in XML Stylesheet Language (XSL), we turned a plain EML record display into an interlinked semantic web of ecological datasets. The experiment suggests a methodological feasibility in incorporating linked entity data into metadata records. The paper also argues for the need of changing the scientific as well as general metadata paradigm.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1013"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Linking Entities in Scientific Metadata</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/andrea-kathleen-wiggins"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/jian-qin"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/miao-chen"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/xiaozhong-liu"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1013/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/jian-qin"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/miao-chen"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/xiaozhong-liu"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/andrea-kathleen-wiggins"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1018">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/sherry-koshman"/>
+        <dc:title>Visualizing Metadata for Environmental Datasets</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1018/authorlist"/>
+        <swrc:abstract>Data growth in the environmental sciences has resulted in multidimensional datasets that are heterogeneous and extensive.  Scientific academic research includes scalar, sensor, or vector data, which may be publically available.  The datasets generated extend to local environmental groups whose trained citizens contribute to the surveillance of local habitats and ecological conditions that can potentially enhance various data analyses on a national and international level. While the abundance of environmental data is growing, tools to select, compare, and utilize the growing number of datasets generated from multiple institutions and groups are not keeping pace. This paper focuses on planning the construction of a dataset visualization that concentrates on the use of metadata to facilitate the identification, selection, and comparison of dataset information. It is presented in the visualization framework at the School of Information Sciences called VIBE (Visual Information Browsing Environment) and plans to adapt the Dublin Core Metadata Element Set as a basis for its development.  In the long term, visualization may emerge not only as a primary tool for modeling environmental scientific metadata, but also as a mechanism used at the incipience of environmental scientific discovery.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1018"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Visualizing Metadata for Environmental Datasets</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/sherry-koshman"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1018/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/sherry-koshman"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1024">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/athena-salaba"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/maja-zumer"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/marcia-lei-zeng"/>
+        <dc:title>FRBR: A Generalized Approach to Dublin Core Application Profiles</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1024/authorlist"/>
+        <swrc:abstract>According to the Singapore Framework, any development of a Dublin Core Application Profile (DCAP) has to include the creation of a domain model.  DC Scholarly Works Application Profile (SWAP) was the first one explicitly using Functional Requirements for Bibliographic Records (FRBR) model in creating its domain model. FRBR has recently been extended with Functional Requirements for Authority Data (FRAD) and Functional Requirement for Subject Authority Data (FRSAD) thus forming the so-called FRBR family. This paper first further develops the SWAP domain model to incorporate the FRBR family models.  Then a generalized FRBR-family-based DCAP domain model is presented to be used as the basis for specific domain application profiles.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1024"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>FRBR: A Generalized Approach to Dublin Core Application Profiles</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/athena-salaba"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/maja-zumer"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/marcia-lei-zeng"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1024/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/maja-zumer"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/marcia-lei-zeng"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/athena-salaba"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1032">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/denise-shereff"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/james-e-andrews"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/rachel-richesson"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/timothy-patrick"/>
+        <dc:title>The Question about Questions: Is DC a Good Choice to Address the Challenges of Representation of Clinical Research Questions and Value Sets?</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1032/authorlist"/>
+        <swrc:abstract>Question and answer sets are the core of clinical research. The [RD] PRISM (Patient Registry Item Specifications and Metadata for Rare Disease) project will provide a library of standardized questions across a broad spectrum of rare diseases that can be used for developing new registries and revising existing ones. Questions will be encoded using well-established clinical terminologies to enable cross-indication and cross-disease analyses, facilitate collaboration, and generate meaningful results for rare disease patients, physicians, and researchers. Encoded question and answer sets will also be indexed to facilitate information retrieval by subject matter, data type, and time interval. This project will outline issues and challenges related to indexing questions for future use and for data sharing; to explore possible metadata and terminological standards for indexing them; and, determine if Dublin Core (DC) is a viable alternative to be explored in a library of standardized rare disease research questions.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1032"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>The Question about Questions: Is DC a Good Choice to Address the Challenges of Representation of Clinical Research Questions and Value Sets?</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/denise-shereff"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/james-e-andrews"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/rachel-richesson"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/timothy-patrick"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1032/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/james-e-andrews"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/denise-shereff"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/timothy-patrick"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/rachel-richesson"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1033">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/carol-jean-godby"/>
+        <dc:title>From records to streams: Merging library and publisher metadata</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1033/authorlist"/>
+        <swrc:abstract>This article announces the availability of a crosswalk between ONIX 2.1 and MARC 21 developed by OCLC and illustrates how it is used in the OCLC Metadata for Publishers project. To accomplish the goal of merging library and publisher metadata and anticipating the need to mine MARC records for other purposes, the design of the crosswalk, the corresponding software, and the application take records apart and process the fields individually, creating data streams that match the intended use of the ONIX standard and resemble the pre-Internet paradigm of Electronic Data Interchange, or EDI, for describing materials and tracking them through a supply chain. Though this design works well enough to support commercial-grade processes, problems arise with mappings between physical descriptions in the two standards, which need to be more rigorously modeled or closely aligned. Nevertheless, the RDA/ONIX Framework, which is reviewed here, promises to reduce this obstacle.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1033"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>From records to streams: Merging library and publisher metadata</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/carol-jean-godby"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1033/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/carol-jean-godby"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1037">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jenn-riley"/>
+        <dc:title>Enhancing Interoperability of FRBR-Based Metadata</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1037/authorlist"/>
+        <swrc:abstract>The Variations/FRBR project at Indiana University is experimenting with implementing the Functional Requirements for Bibliographic Records (FRBR) conceptual model in order to further research on next-generation library catalogs and promote the re-usability and interoperability of FRBR-based metadata. This paper describes the use of FRBR in some system implementations, discusses the first steps our project has taken to promote shared FRBRized data, and raises some issues related to representing FRBRized data in Dublin Core Application Profiles.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1037"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Enhancing Interoperability of FRBR-Based Metadata</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/jenn-riley"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1037/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/jenn-riley"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1041">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/andrew-hewson"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/emma-tonkin"/>
+        <dc:title>Building blocks of metadata: What can we learn from Lego™?</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1041/authorlist"/>
+        <swrc:abstract>The idea that metadata, particularly Dublin Core, could be usable as a Lego™-like construction kit has been a popular suggestion for over a decade. In this paper, we first explore what this metaphor originally meant – why the idea is so appealing, and what design lessons we might take from the idea. We take a look at how close we are today to that ideal, looking at examples of real-world metadata design projects, and suggest that at present the situation is often more analogous to a game of Tetris – that is, the construction kit is sometimes limited, time concerns are often an issue, and there is limited opportunity for creativity. We explore patterns of collaboration in existing projects, such as the Scholarly Works Application Profile development. Finally, we ask how what we know about the process of building a shared understanding and formalisation about a domain can help us come closer to the ideal of Dublin Core as an approachable puzzle-game or construction kit.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1041"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Building blocks of metadata: What can we learn from Lego™?</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/andrew-hewson"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/emma-tonkin"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1041/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/emma-tonkin"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/andrew-hewson"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1043">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/steven-j-miller"/>
+        <dc:title>The One-To-One Principle: Challenges in Current Practice</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1043/authorlist"/>
+        <swrc:abstract>The DCMI One-to-One Principle holds that related but conceptually different entities, such as a photograph and a digital image of that photograph, should be represented by separate metadata records. In practice, however, large numbers of practitioners do not adhere to this principle and commonly mix elements representing two related entities in a single metadata record. This paper explores reasons why this is the case, why it is problematic, how the principle itself would benefit from greater clarity, some practical options for maintaining the principle in current systems, with advantages and disadvantages of each. The paper focuses on the widespread application context of small to medium-sized cultural heritage institutions digitizing unique local resources, creating metadata using digital collection software packages such as CONTENTdm, and exposing only simple Dublin Core metadata for OAI harvesting and aggregating.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1043"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>The One-To-One Principle: Challenges in Current Practice</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/steven-j-miller"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1043/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/steven-j-miller"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1044">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/long-xiao"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/ying-feng"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/yunyun-shen"/>
+        <dc:title>Building Metadata Application Framework for Chinese Digital Library: A Case Study of National Digital Library of China</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1044/authorlist"/>
+        <swrc:abstract>This paper reports a project named “General Rules of National Digital Library Metadata”, trying to build a metadata application framework for National Library of China (NLC). It aims at solving the applications of DC in Chinese digital library, developing a series of related standards, criteria and platform, to meet the requirements of describing, organizing, managing, serving and preserving the Chinese digital objects. It functions to support producing, processing, organizing, releasing, preserving and managing information resources in the digital library system of NLC, and then to achieve the interoperability and data sharing with other digital library systems to the more extent.
+ The project outcomes are two parts: a metadata application framework and principles of National Digital Library of China based on the work of DCMI and the other international leading metadata projects, and a conversion program. According to this project, we are trying to find the best practice of metadata application for developing digital library in China.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1044"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Building Metadata Application Framework for Chinese Digital Library: A Case Study of National Digital Library of China</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/long-xiao"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/ying-feng"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/yunyun-shen"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1044/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/yunyun-shen"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/long-xiao"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/ying-feng"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1046">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/leigh-bain"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/lynne-mcavoy"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/margaret-devey"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/marie-claude-cote"/>
+        <dc:title>Celebrating 10 Years of Government of Canada Metadata Standards</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1046/authorlist"/>
+        <swrc:abstract>As the Dublin Core Metadata Initiative celebrates its 15th anniversary, the Government of Canada (GC) celebrates its 10th year of making information easier to find. The Government of Canada officially adopted the Dublin Core as its core metadata standard for Web resource discovery in 2001. Soon the Government of Canada started to develop domain-specific metadata beyond Web and resource discovery to meet wider information needs. Supported by standards and other policy instruments, rapid metadata developments were made in the areas of records management, Web content management, e-learning, executive correspondence and geospatial data. The Government of Canada has been an active participant in the DC-Government Working Group, and organized its own event, the Canadian Metadata Forum in 2003 and 2005. More recently, the Government of Canada has adopted an enterprise information architecture (EIA) approach to metadata, within a larger information management strategy. The Government of Canada now has plans underway to develop other metadata domains, registries and repositories, its own namespace facility, and a vast awareness campaign to brand metadata as the “DNA of Government”.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1046"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Celebrating 10 Years of Government of Canada Metadata Standards</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/leigh-bain"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/lynne-mcavoy"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/margaret-devey"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/marie-claude-cote"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1046/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/margaret-devey"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/marie-claude-cote"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/leigh-bain"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/lynne-mcavoy"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-996">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/jason-lee"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/myung-ja-k-han"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/sheila-bair"/>
+        <dc:title>Creating Metadata Best Practices for CONTENTdm Users</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-996/authorlist"/>
+        <swrc:abstract>The OCLC CONTENTdm Metadata Working Group was formed in response to research demonstrating the need for guidelines and best practices for creating quality Dublin Core metadata, which is useful to the primary user community, but also “shareable” outside of the local context. The CONTENTdm Metadata Working Group has worked since August 2009 in a test environment to identify best practices for creating Dublin Core metadata in CONTENTdm and mapping to MARC for sharing in WorldCat.org via the WorldCat Digital Collection Gateway, a self-service OAI harvesting tool. The first best practices document identified 12 core metadata fields and four recommended fields “as appropriate,” and provides guidelines for field content standardization and mapping. Concerns such as adherence to the Dublin Core one-to-one principle and the recording of original and digital dates and publishers are discussed, along with recommendations for configuring metadata for the Digital Collection Gateway, which was developed to increase the shareability of metadata.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/996"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Creating Metadata Best Practices for CONTENTdm Users</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/jason-lee"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/myung-ja-k-han"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/sheila-bair"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-996/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/myung-ja-k-han"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/sheila-bair"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/jason-lee"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-997">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/sarah-buchanan"/>
+        <dc:title>Use of Community Metadata: Public Policy Research in PolicyArchive</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-997/authorlist"/>
+        <swrc:abstract>PolicyArchive collects public policy research from over 700 known research publishers and makes these documents accessible in a navigable digital library. The contributions of thousands of publications from these providers enables in-depth secondary source materials to be utilized by policymakers, legislators, foundations, scholars, journalists, and educators. The functionality of this digital repository is discussed, including the use of terminologies, subject navigability, and Special Collections. PolicyArchive presents unique content with structured metadata which is openly accessible; the application of these principles not only provides coordinated access to previously unavailable resources, but also allows the reader to place a given document in multiple contexts. Analysis of this information environment illuminates ongoing digital library initiatives regarding the creation of navigable, accessible learning resources.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/997"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Use of Community Metadata: Public Policy Research in PolicyArchive</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/sarah-buchanan"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/main/A-997/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/sarah-buchanan"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1002">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/ellen-detlefsen"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/mary-jo-dorsey"/>
+        <dc:title>Vocabulary and Taxonomy Issues When Searching Lesbian, Gay, Bisexual and Transgender (LGBT) Health LiteratureT health literature</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1002/authorlist"/>
+        <swrc:abstract>Objective:  To describe the gaps in existing vocabularies and taxonomies that are used to retrieve literature on health issues for LGBT adolescents in order to build a working ontology of appropriate terms.
+ 
+ Methods:  A formal literature search on healthcare concerns of LGBT adolescents was done, using indices to the literature of the health sciences, the social and psycho-social sciences, and the information sciences.   No terms from standard  subject heading lists and controlled vocabularies such as MeSH®, the Thesaurus of Psychological Index Terms®, the ERIC Thesaurus®, and the MedlinePlus® Consumer Vocabulary, exist that adequately describe this literature, making precise retrieval difficult.  A search using keywords and text words yielded 80 articles, and a careful reading of the articles prompted this effort to develop an ontology of “gay-sensitive” terms from the consumer informatics perspective.
+ 
+ Results:  A first-step model of LGBT terms, derived from the published research literature, is presented, which offers a more appropriate set of terms to use when searching the multi-disciplinary literature that reports current research on health concerns of LGBT adolescents.  If an ontology can be developed, tested, and described for this topic, it will add to the sparse literature on consumer terminology for informatics applications.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1002"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Vocabulary and Taxonomy Issues When Searching Lesbian, Gay, Bisexual and Transgender (LGBT) Health LiteratureT health literature</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/ellen-detlefsen"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/mary-jo-dorsey"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1002/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/mary-jo-dorsey"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/ellen-detlefsen"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1006">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/sheila-bair"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/susan-steuer"/>
+        <dc:title>Towards a Premodern Manuscript Application Profile</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1006/authorlist"/>
+        <swrc:abstract>Individuals who wish to develop digital scholarly works and libraries that wish to provide access to their precious and fragile holdings have an interest in digitizing premodern manuscripts.  These handmade objects are often beautiful and each one is unique.  The features of zooming and light alteration available through digital photography and manipulation are assets to medieval scholars, because these methods can reveal more information for teaching and research. Digital collections of medieval manuscripts can be difficult to find or remain unpublished, in part because the description of these works is difficult.  Involvement in the International Congress on Medieval Studies at Kalamazoo, Michigan has made it clear to librarians at WMU that both smaller institutions (which may hold only one or two items) and individual scholars wish to provide appropriate metadata for digitized manuscripts, but do not have the combination of technical and subject skills needed. Even with a good description of material from a bookseller or printed catalog, those unfamiliar with metadata schema and language may find it daunting, while libraries may lack a specialist in the terminology and skills of paleography and codicology.  In addition, most existing large digital collections use TEI, which has a steep learning curve. 
+ 
+ The goal of this project is to develop a standardized and user-friendly Dublin Core application profile (Heery &#38; Patel, 2000; Coyle &#38; Baker, 2009) which uses elements from the European Networking Resources and Information Concerning Cultural Heritage (ENRICH) Specification (Burnard, 2008) and Dublin Core (DCMI, 2008) to create a metadata profile which works well with the long-standing conventions of premodern manuscript descriptive codicology and paleography (Ricci, 1935-1940; Ker, 1969). The ENRICH Specification includes elements standardizing traditional manuscript description with the goal of creating “seamless access to information about the vast collections of manuscripts and incunables distributed across major European libraries (Cummings &#38; Burnard, 2009).”  However, the size of the specification can be formidable, and requires knowledge of TEI and XML (a steep learning curve in itself), a searchable XML platform, and the expertise to set it up and sustain it.  
+ 
+ A Dublin Core application profile developed specifically for premodern manuscript description would allow for the creation of standardized, shareable metadata and Web-accessible digital images within easy-to-use digital collection management software such as CONTENTdm.  Inclusion of defined ENRICH elements in the profile provides a “fill-in-the-blank” template informing non-specialists of descriptive metadata useful to medieval scholars. This, combined with suggested content standards and a simple glossary, should allow catalogers with limited subject expertise to provide some access to their materials in a way which conforms to the expectations of the target users, specialists in the interdisciplinary study of the premodern world.  In addition, if the collection attracts scholars, the descriptive metadata can be easily updated and modified from their research.  
+ 
+ This poster will illustrate how digital images of manuscripts and traditional print catalog descriptions translate easily into the Premodern Manuscript Application Profile (PMAP), which is in development.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1006"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Towards a Premodern Manuscript Application Profile</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/sheila-bair"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/susan-steuer"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1006/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/sheila-bair"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/susan-steuer"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1008">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/lars-g-svensson"/>
+        <dc:title>Universal Access to Cultural Heritage Material: The Europeana Resolution Discovery Service for Persistent Identifiers</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1008/authorlist"/>
+        <swrc:abstract>Within the cultural heritage community, it is increasingly common to distinguish the tasks of identification and addressing the object by using a location-independent Persistent Identifier (PI) such as a URN, a DOI, or a Handle linked to a URL describing the object location in an institutional repository or a digital long-term preservation system run by a national library. This way, the problem that a digital object is inaccessible if the content provider moves it to a different location can be solved since the object can still be found using the PI.
+ In order to resolve a PI to a URL with the object location, a resolution service is required, which usually is run by the national library acting as legal deposit for the digital object. This requires the user to know, which national library is responsible for the service, which is a problem for digital library portals collecting metadata from content providers in different cultural settings and from different nations. For the European cultural heritage portal Europeana, it was decided to implement a metaresolver – The Europeana Resolution Discovery Service (ERDS) – which collects all PI resolution requests and dispatches them to the proper national resolver service. The development of this metaresolver is part of the Europeana sister-project EuropeanaConnect and is scheduled for completion in July 2010.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1008"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Universal Access to Cultural Heritage Material: The Europeana Resolution Discovery Service for Persistent Identifiers</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/lars-g-svensson"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1008/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/lars-g-svensson"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1015">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/ahsan-morshed"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/gudrun-johannsen"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/johannes-keizer"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/marcia-lei-zeng"/>
+        <dc:title>Bridging End Users’ Terms and AGROVOC Concept Server Vocabularies</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1015/authorlist"/>
+        <swrc:abstract>AGROVOC is one of the most important resources for covering the terminology of all subjects to interest the Food and Agriculture Organization of the United Nations (FAO) (including agriculture, forestry, fisheries, food and related domains). AGROVOC is a multilingual thesaurus developed by FAO and the Commission of the European Communities in the early 80s. Since then it has continuously been updated by FAO in collaboration with partner organizations in different countries, and is now available online in 19 languages . 
+ 
+ AGROVOC is currently being converted from a traditional term-based knowledge organization system (KOS) to a concept-based system (Soergel, 2004), the AGROVOC Concept Server (CS). The CS allows the representation of more semantics such as specific relationships between concepts as well as relationships between their multilingual lexicalizations. Its  functions include being a resource to help structure and standardize agricultural terminology in multiple languages for use by any number of different users and systems around the world. An enabling tool, the AGROVOC Concept Server Workbench (ACSW), has been developed by FAO in collaboration with Kasetsart University in Thailand and other partners.  It supports the maintenance of the CS data in a distributed environment (Sini, 2008). One of the goals of the project is to set up a network of international experts who can share the collaborative maintenance and extension of the AGROVOC CS, and thus enhance the creation of agricultural knowledge much more efficiently.  The ACSW is part of the larger Agricultural Ontology Service (AOS) initiative and the first major step towards an "Ontology Service" (Fisseha, 2001), which  aims to provide semantic-based services to users in the agricultural domain. To cover all agricultural related information, ACSW needs integrated vocabularies.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1015"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Bridging End Users’ Terms and AGROVOC Concept Server Vocabularies</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/ahsan-morshed"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/gudrun-johannsen"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/johannes-keizer"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/marcia-lei-zeng"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1015/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/ahsan-morshed"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/gudrun-johannsen"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/johannes-keizer"/>
+        <rdf:_4 rdf:resource="http://data.semanticweb.org/person/marcia-lei-zeng"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1016">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/acalia-pozo-marrero"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/alma-b-rivera-aguilera"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/magaly-vega-lopez"/>
+        <dc:title>Metadata application profile: Integrating different metadata schemes for cataloguing digital learning material collection at  Biblioteca Francisco Xavier Clavigero, Universidad Iberoamericana Ciudad de México.</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1016/authorlist"/>
+        <swrc:abstract>This poster reports a project which respond to the institutional needs of storage and preservation of teacher and student memories captured in digital learning material. Also propose a system for retrieval of digital learning material through adequate metadata and taking advantage of full text content. The main objective of the project is provide adequate storage, preservation and retrieval of digital learning material through appropriate metadata tags and pertinent digital collection software management selection. Some of the benefits are exposure, sharing and preservation of digital learning materials produced by the university community and the use of open software. The barriers founded were lack of regular practices about copyright issues and institutional policies. The most important result of the project is a system of storage and retrieval of digital learning material based in Greenstone with an application profile metadata based in Dublin Core, Learning Object Metadata and local labels. Besides, this experience permits the conceptualization of a model for developing application profiles for other digital collections. In the future we hope to design, develop and offer to the community a social network system to facilitate the description, social tagging and sharing of learning digital material which will improve the current system characteristics.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1016"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Metadata application profile: Integrating different metadata schemes for cataloguing digital learning material collection at  Biblioteca Francisco Xavier Clavigero, Universidad Iberoamericana Ciudad de México.</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/acalia-pozo-marrero"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/alma-b-rivera-aguilera"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/magaly-vega-lopez"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1016/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/alma-b-rivera-aguilera"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/magaly-vega-lopez"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/acalia-pozo-marrero"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1022">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/chiung-min-tsai"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/hsueh-hua-chen"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/ya-chen-ho"/>
+        <dc:title>Creating Collection-Level Metadata: A TELDAP Case Study</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1022/authorlist"/>
+        <swrc:abstract>This poster describes how we created a set of collection-level metadata for Taiwan’s digital collections, seeking to explore new facets of knowledge organization, facilitating the searching of information for users and the administering of resources for collection managers.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1022"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Creating Collection-Level Metadata: A TELDAP Case Study</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/chiung-min-tsai"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/hsueh-hua-chen"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/ya-chen-ho"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1022/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/hsueh-hua-chen"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/chiung-min-tsai"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/ya-chen-ho"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1031">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/benjamin-zapilko"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/philipp-mayr"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/york-sure"/>
+        <dc:title>Establishing a Multi-Thesauri-Scenario based on SKOS and Cross-Concordances</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1031/authorlist"/>
+        <swrc:abstract>This case study proposes a scenario with three topic-related thesauri, which have been connected with bilateral cross-concordances as part of a major terminology mapping initiative in the project KoMoHe (Mayr et al., 2008). The thesauri have already been or will be converted to SKOS and in order to not omit the relevant crosswalks, the mapping properties of SKOS will be used for modeling them adequately. The participating thesauri in this approach are: (i) TheSoz (Thesaurus for the Social Sciences, GESIS) which has been converted to SKOS in a first experimental version (Zapilko et al., 2009), an update is underway which will be oriented on the introduced SKOS extensions of the EUROVOC thesaurus (Smedt, 2009) and will use SKOS-XL additionally, (ii) STW (Standard-Thesaurus for Economics, ZBW) which has also been published in SKOS format (Neubert, 2009) and (iii) IBLK-Thesaurus (SWP).
+ Currently, the conversion of vocabularies to SKOS is an active research area, but there are still unsolved and relevant issues which could not be treated satisfyingly yet. Our approach focuses on the application of existing crosswalks to the SKOS mapping properties and the establishment of a linked data application based on those connected thesauri.</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/1031"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>Establishing a Multi-Thesauri-Scenario based on SKOS and Cross-Concordances</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/benjamin-zapilko"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/philipp-mayr"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/york-sure"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1031/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/philipp-mayr"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/benjamin-zapilko"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/york-sure"/>
+    </rdf:Description>
+
+    <swrc:InProceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-994">
+        <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/alyssa-graybeal"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/laurel-tarulli"/>
+        <dc:creator rdf:resource="http://data.semanticweb.org/person/louise-spiteri"/>
+        <dc:title>The public library catalogue as a social space: Transaction log analysis of user interaction with social discovery systems.</dc:title>
+        <bibo:authorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-994/authorlist"/>
+        <swrc:abstract>The specific goal of this project is to examine and compare how library users access, use, and interact with two social discovery systems used in two Canadian public library systems.  Transaction log analysis will be conducted to answer the following research questions: a) How do public library users interact with social discovery systems? Specifically, which enhanced catalogue features do they use, e.g., faceted navigation, user-contributed content such as tagging, reviews, and ratings, sorting features, etc., and with which frequency? b) How does usage between the two social discovery systems compare?  Specifically, are there commonalities or differences between how public library users use different social discovery systems? and c) Does the use of social discovery systems change over time?  Specifically, is the use of the features in social discovery systems consistent over time?</swrc:abstract>
+        <swrc:month>October</swrc:month>
+        <swrc:url rdf:resource="http://dcpapers.dublincore.org/ojs/pubs/article/view/994"/>
+        <swrc:year>2010</swrc:year>
+        <rdfs:label>The public library catalogue as a social space: Transaction log analysis of user interaction with social discovery systems.</rdfs:label>
+        <maker rdf:resource="http://data.semanticweb.org/person/alyssa-graybeal"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/laurel-tarulli"/>
+        <maker rdf:resource="http://data.semanticweb.org/person/louise-spiteri"/>
+    </swrc:InProceedings>
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-994/authorlist">
+        <rdf:_1 rdf:resource="http://data.semanticweb.org/person/louise-spiteri"/>
+        <rdf:_2 rdf:resource="http://data.semanticweb.org/person/laurel-tarulli"/>
+        <rdf:_3 rdf:resource="http://data.semanticweb.org/person/alyssa-graybeal"/>
+    </rdf:Description>
+
+    <swrc:Proceedings rdf:about="http://data.semanticweb.org/conference/dc/2010/proceedings">
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1004"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1005"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1009"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1010"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1013"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1018"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1024"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1032"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1033"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1037"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1041"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1043"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1044"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1046"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-996"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-997"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1002"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1006"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1008"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1015"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1016"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1022"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1031"/>
+        <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-994"/>
+        <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <bibo:editorList rdf:resource="http://data.semanticweb.org/conference/dc/2010/proceedings/editor_list"/>
+        <swrc:booktitle>DC-2010-Pittsburgh Proceedings</swrc:booktitle>
+        <swrc:month>10</swrc:month>
+        <swrc:year>2010</swrc:year>
+    </swrc:Proceedings>
+
+    <swc:Chair rdf:about="http://data.semanticweb.org/conference/dc/2010/program-committee-chair">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/diane-hillmann"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/michael-lauruhn"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Program committee chair</rdfs:label>
+    </swc:Chair>
+
+    <swc:ProgrammeCommitteeMember rdf:about="http://data.semanticweb.org/conference/dc/2010/programme-committee-member">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ahmed-taha"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/aida-slavic"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/akira-miyazawa"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/alistair-miles"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ana-alice-baptista"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/andrew-c-wilson"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ann-apps"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/bernhard-haslhofer"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/bernhard-schandl"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/carol-hert-schema"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/chao-chen-chen"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/cheryl-d-walters"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/christopher-s-g-khoo"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/corey-a-harper"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/cristina-pattuelli"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/douglas-campbell"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/eric-rogers-childress"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/faye-r-leibowitz"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/filiberto-felipe-martinez-arellano"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/gail-m-hodge"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/hollie-c-white"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jacques-ducloy"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jane-greenberg"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jian-qin"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jin-cheon-na"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/john-kunze"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jon-phipps"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/joseph-a-busch"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/joseph-t-tennis"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/leif-andresen"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/marcia-lei-zeng"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/masahide-kanzaki"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/mei-ling-wang"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/michael-d-crandall"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/michael-robert"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/michael-robert-bolam"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/mitsuharu-nagamori"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/pete-johnston"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/sandy-k-roe"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/schubert-shou-boon-foo"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/seth-van-hooland"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/sherry-l-vellucci"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/shigeo-sugimoto"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/stefanie-ruehle"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/stuart-a-sutton"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/thomas-baker"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/traugott-koch"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/william-e-moen"/>
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/yushiana-mansor"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Programme Committee Member</rdfs:label>
+    </swc:ProgrammeCommitteeMember>
+
+    <swc:Chair rdf:about="http://data.semanticweb.org/conference/dc/2010/tutorial-chair">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/marcia-lei-zeng"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Tutorial chair</rdfs:label>
+    </swc:Chair>
+
+    <swc:TutorialEvent rdf:about="http://data.semanticweb.org/conference/dc/2010/tutorial/1">
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/1/tutorial-presenter"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Dublin Core: History, Key Concepts, and Evolving Context</rdfs:label>
+        <ical:dtend>2010-10-20T10:30:00-05:00</ical:dtend>
+        <ical:dtstart>2010-10-20T09:00:00-05:00</ical:dtstart>
+        <ical:summary>Dublin Core: History, Key Concepts, and Evolving Context</ical:summary>
+        <ical:url rdf:resource="http://www.dublincore.org/resources/training/dc-2010/Tutorial1_basic_Greenberg.pdf"/>
+        <homepage rdf:resource="http://www.dublincore.org/resources/training/dc-2010/Tutorial1_basic_Greenberg.pdf"/>
+    </swc:TutorialEvent>
+
+    <swc:Presenter rdf:about="http://data.semanticweb.org/conference/dc/2010/tutorial/1/tutorial-presenter">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jane-greenberg"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/1"/>
+        <rdfs:label>Tutorial Presenter</rdfs:label>
+    </swc:Presenter>
+
+    <swc:TutorialEvent rdf:about="http://data.semanticweb.org/conference/dc/2010/tutorial/2">
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/2/tutorial-presenter"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Dublin Core: DCAM, Syntax, and Semantics</rdfs:label>
+        <ical:dtend>2010-10-20T12:30:00-05:00</ical:dtend>
+        <ical:dtstart>2010-10-20T11:00:00-05:00</ical:dtstart>
+        <ical:summary>Dublin Core: DCAM, Syntax, and Semantics</ical:summary>
+        <ical:url rdf:resource="http://www.dublincore.org/resources/training/dc-2010/Tutorial2_basic_Phipps.pdf"/>
+        <homepage rdf:resource="http://www.dublincore.org/resources/training/dc-2010/Tutorial2_basic_Phipps.pdf"/>
+    </swc:TutorialEvent>
+
+    <swc:Presenter rdf:about="http://data.semanticweb.org/conference/dc/2010/tutorial/2/tutorial-presenter">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/jon-phipps"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/2"/>
+        <rdfs:label>Tutorial Presenter</rdfs:label>
+    </swc:Presenter>
+
+    <swc:TutorialEvent rdf:about="http://data.semanticweb.org/conference/dc/2010/tutorial/3">
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/3/tutorial-presenter"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Semantic Web &#38; Linked Data</rdfs:label>
+        <ical:dtend>2010-10-20T10:30:00-05:00</ical:dtend>
+        <ical:dtstart>2010-10-20T09:00:00-05:00</ical:dtstart>
+        <ical:summary>Semantic Web &#38; Linked Data</ical:summary>
+        <ical:url rdf:resource="http://www.dublincore.org/resources/training/dc-2010/Tutorial3_transitional_Coyle.pdf"/>
+        <homepage rdf:resource="http://www.dublincore.org/resources/training/dc-2010/Tutorial3_transitional_Coyle.pdf"/>
+    </swc:TutorialEvent>
+
+    <swc:Presenter rdf:about="http://data.semanticweb.org/conference/dc/2010/tutorial/3/tutorial-presenter">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/karen-coyle"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/3"/>
+        <rdfs:label>Tutorial Presenter</rdfs:label>
+    </swc:Presenter>
+
+    <swc:TutorialEvent rdf:about="http://data.semanticweb.org/conference/dc/2010/tutorial/4">
+        <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/4/tutorial-presenter"/>
+        <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Six Step SAFARI from the Dublin Core to the Semantic Web</rdfs:label>
+        <ical:dtend>2010-10-20T17:00:00-05:00</ical:dtend>
+        <ical:dtstart>2010-10-20T15:30:00-05:00</ical:dtstart>
+        <ical:summary>Six Step SAFARI from the Dublin Core to the Semantic Web</ical:summary>
+        <ical:url rdf:resource="http://www.dublincore.org/resources/training/dc-2010/Tutorial4_SAFARIDaniel.pdf"/>
+        <homepage rdf:resource="http://www.dublincore.org/resources/training/dc-2010/Tutorial4_SAFARIDaniel.pdf"/>
+    </swc:TutorialEvent>
+
+    <swc:Presenter rdf:about="http://data.semanticweb.org/conference/dc/2010/tutorial/4/tutorial-presenter">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/ron-daniel"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/4"/>
+        <rdfs:label>Tutorial Presenter</rdfs:label>
+    </swc:Presenter>
+
+    <swc:Chair rdf:about="http://data.semanticweb.org/conference/dc/2010/workshop-convenor">
+        <swc:heldBy rdf:resource="http://data.semanticweb.org/person/liddy-nevile"/>
+        <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/dc/2010"/>
+        <rdfs:label>Workshop convenor</rdfs:label>
+    </swc:Chair>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/australian-national-data-service">
+        <rdfs:label>Australian National Data Service</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/andrew-c-wilson"/>
+        <name>Australian National Data Service</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/california-digital-library">
+        <rdfs:label>California Digital Library</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/john-kunze"/>
+        <name>California Digital Library</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/cataloging-classification-quarterly">
+        <rdfs:label>Cataloging &#38; Classification Quarterly</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/sandy-k-roe"/>
+        <name>Cataloging &#38; Classification Quarterly</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/danish-agency-for-libraries-and-media">
+        <rdfs:label>Danish Agency for Libraries and Media</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/leif-andresen"/>
+        <name>Danish Agency for Libraries and Media</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/drrt-lorraine">
+        <rdfs:label>DRRT Lorraine</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/jacques-ducloy"/>
+        <name>DRRT Lorraine</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/dublin-core-metadata-initiative">
+        <rdfs:label>Dublin Core Metadata Initiative</rdfs:label>
+        <owl:sameAs rdf:resource="http://dublincore.org/DCMI.rdf#DCMI"/>
+        <member rdf:resource="http://data.semanticweb.org/person/thomas-baker"/>
+        <name>Dublin Core Metadata Initiative</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/eduserv-foundation">
+        <rdfs:label>Eduserv Foundation</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/pete-johnston"/>
+        <name>Eduserv Foundation</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/elsevier-labs">
+        <rdfs:label>Elsevier Labs</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/ron-daniel"/>
+        <name>Elsevier Labs</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/information-institute-of-syracuse">
+        <rdfs:label>Information Institute of Syracuse</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/diane-hillmann"/>
+        <name>Information Institute of Syracuse</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/information-international-assoc">
+        <rdfs:label>Information International Assoc.</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/gail-m-hodge"/>
+        <name>Information International Assoc.</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/international-islamic-university-malaysia">
+        <rdfs:label>International Islamic University Malaysia</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/yushiana-mansor"/>
+        <name>International Islamic University Malaysia</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/jes-co">
+        <rdfs:label>JES &#38; Co</rdfs:label>
+        <rdfs:label>JES &#38; Co.</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/jon-phipps"/>
+        <name>JES &#38; Co</name>
+        <name>JES &#38; Co.</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/kent-state-university">
+        <rdfs:label>Kent State University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/marcia-lei-zeng"/>
+        <name>Kent State University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/la-trobe-university">
+        <rdfs:label>La Trobe University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/liddy-nevile"/>
+        <name>La Trobe University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/logic-inc">
+        <rdfs:label>Logic, Inc.</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/carol-hert-schema"/>
+        <name>Logic, Inc.</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/max-planck-digital-library">
+        <rdfs:label>Max Planck Digital Library</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/traugott-koch"/>
+        <name>Max Planck Digital Library</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/middleton-queensland-university-of-technology">
+        <rdfs:label>Middleton Queensland University of Technology</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/michael-robert"/>
+        <name>Middleton Queensland University of Technology</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/nanyang-technological-university">
+        <rdfs:label>Nanyang Technological University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/christopher-s-g-khoo"/>
+        <member rdf:resource="http://data.semanticweb.org/person/jin-cheon-na"/>
+        <member rdf:resource="http://data.semanticweb.org/person/schubert-shou-boon-foo"/>
+        <name>Nanyang Technological University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/national-chengchi-university">
+        <rdfs:label>National Chengchi University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/mei-ling-wang"/>
+        <name>National Chengchi University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/national-institute-of-informatics-japan">
+        <rdfs:label>National Institute of Informatics</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/akira-miyazawa"/>
+        <name>National Institute of Informatics</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/national-library-of-new-zealand">
+        <rdfs:label>National Library of New Zealand</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/douglas-campbell"/>
+        <name>National Library of New Zealand</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/national-taiwan-normal-university">
+        <rdfs:label>National Taiwan Normal University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/chao-chen-chen"/>
+        <name>National Taiwan Normal University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/new-york-university">
+        <rdfs:label>New York University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/corey-a-harper"/>
+        <name>New York University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/oclc-research">
+        <rdfs:label>OCLC Research</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/eric-rogers-childress"/>
+        <member rdf:resource="http://data.semanticweb.org/person/stuart-l-weibel"/>
+        <name>OCLC Research</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/pratt-institute">
+        <rdfs:label>Pratt Institute</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/cristina-pattuelli"/>
+        <name>Pratt Institute</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/project-performance-corporation">
+        <rdfs:label>Project Performance Corporation</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/joseph-a-busch"/>
+        <name>Project Performance Corporation</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/rutgers-university">
+        <rdfs:label>Rutgers University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/sherry-l-vellucci"/>
+        <name>Rutgers University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/sils-metadata-research-center-university-of-north-carolina">
+        <rdfs:label>SILS Metadata Research Center, University of North Carolina</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/jane-greenberg"/>
+        <name>SILS Metadata Research Center, University of North Carolina</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/structured-dynamics">
+        <rdfs:label>Structured Dynamics LLC</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/michael-k-bergman"/>
+        <name>Structured Dynamics LLC</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/sub-goettingen">
+        <rdfs:label>SUB Goettingen</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/stefanie-ruehle"/>
+        <name>SUB Goettingen</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/syracuse-university">
+        <rdfs:label>Syracuse University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/jian-qin"/>
+        <name>Syracuse University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/taxonomy-strategies">
+        <rdfs:label>Taxonomy Strategies</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/michael-lauruhn"/>
+        <name>Taxonomy Strategies</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/uae-university">
+        <rdfs:label>UAE University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/ahmed-taha"/>
+        <name>UAE University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/udc-consortium">
+        <rdfs:label>UDC Consortium</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/aida-slavic"/>
+        <name>UDC Consortium</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/universidad-nacional-autonoma-de-mexico">
+        <rdfs:label>Universidad Nacional Autónoma de México</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/filiberto-felipe-martinez-arellano"/>
+        <name>Universidad Nacional Autónoma de México</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/universidade-do-minho">
+        <rdfs:label>Universidade do Minho</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/ana-alice-baptista"/>
+        <name>Universidade do Minho</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/universite-libre-de-bruxelles">
+        <rdfs:label>Université Libre de Bruxelles</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/seth-van-hooland"/>
+        <name>Université Libre de Bruxelles</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-north-carolina-at-chapel-hill">
+        <rdfs:label>University of North Carolina at Chapel Hill</rdfs:label>
+        <rdfs:label>University of North Carolina, Chapel Hill</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/hollie-c-white"/>
+        <member rdf:resource="http://data.semanticweb.org/person/jane-greenberg"/>
+        <name>University of North Carolina at Chapel Hill</name>
+        <name>University of North Carolina, Chapel Hill</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-north-texas">
+        <rdfs:label>University of North Texas</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/william-e-moen"/>
+        <name>University of North Texas</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-oxford">
+        <rdfs:label>University of Oxford</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/alistair-miles"/>
+        <name>University of Oxford</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-pittsburgh">
+        <rdfs:label>University of Pittsburgh</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/faye-r-leibowitz"/>
+        <member rdf:resource="http://data.semanticweb.org/person/michael-robert-bolam"/>
+        <name>University of Pittsburgh</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-tsukuba">
+        <rdfs:label>University of Tsukuba</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/mitsuharu-nagamori"/>
+        <member rdf:resource="http://data.semanticweb.org/person/shigeo-sugimoto"/>
+        <name>University of Tsukuba</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-vienna">
+        <rdfs:label>University of Vienna</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/bernhard-haslhofer"/>
+        <member rdf:resource="http://data.semanticweb.org/person/bernhard-schandl"/>
+        <name>University of Vienna</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/university-of-washington">
+        <rdfs:label>University of Washington</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/joseph-t-tennis"/>
+        <member rdf:resource="http://data.semanticweb.org/person/michael-d-crandall"/>
+        <member rdf:resource="http://data.semanticweb.org/person/stuart-a-sutton"/>
+        <name>University of Washington</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/utah-state-university">
+        <rdfs:label>Utah State University</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/cheryl-d-walters"/>
+        <name>Utah State University</name>
+    </Organization>
+
+    <Organization rdf:about="http://data.semanticweb.org/organization/zenon-ltd-partners">
+        <rdfs:label>Zenon Ltd. Partners</rdfs:label>
+        <member rdf:resource="http://data.semanticweb.org/person/masahide-kanzaki"/>
+        <name>Zenon Ltd. Partners</name>
+    </Organization>
+
+    <Person rdf:about="http://data.semanticweb.org/person/acalia-pozo-marrero">
+        <rdfs:label>Acalia Pozo-Marrero</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1016"/>
+        <name>Acalia Pozo-Marrero</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ahmed-taha">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/uae-university"/>
+        <rdfs:label>Ahmed Taha</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/United_Arab_Emirates"/>
+        <name>Ahmed Taha</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ahsan-morshed">
+        <rdfs:label>Ahsan Morshed</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1015"/>
+        <name>Ahsan Morshed</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/aida-slavic">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/udc-consortium"/>
+        <rdfs:label>Aida Slavic</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+        <name>Aida Slavic</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/akira-miyazawa">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/national-institute-of-informatics-japan"/>
+        <rdfs:label>Akira Miyazawa</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Japan"/>
+        <name>Akira Miyazawa</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/alice-hermann">
+        <rdfs:label>Alice Hermann</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007"/>
+        <name>Alice Hermann</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/alistair-miles">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-oxford"/>
+        <rdfs:label>Alistair Miles</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+        <name>Alistair Miles</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/alma-b-rivera-aguilera">
+        <rdfs:label>Alma B Rivera Aguilera</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1016"/>
+        <name>Alma B Rivera Aguilera</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/alyssa-graybeal">
+        <rdfs:label>Alyssa Graybeal</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-994"/>
+        <name>Alyssa Graybeal</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ana-alice-baptista">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidade-do-minho"/>
+        <rdfs:label>Ana Alice Baptista</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Portugal"/>
+        <name>Ana Alice Baptista</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/andrea-kathleen-wiggins">
+        <rdfs:label>Andrea Kathleen Wiggins</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1013"/>
+        <name>Andrea Kathleen Wiggins</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/andrew-c-wilson">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/australian-national-data-service"/>
+        <rdfs:label>Andrew C. Wilson</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Australia"/>
+        <name>Andrew C. Wilson</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/andrew-hewson">
+        <rdfs:label>Andrew Hewson</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1041"/>
+        <name>Andrew Hewson</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ann-apps">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <rdfs:label>Ann Apps</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+        <name>Ann Apps</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/athena-salaba">
+        <rdfs:label>Athena Salaba</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1024"/>
+        <name>Athena Salaba</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/benjamin-zapilko">
+        <rdfs:label>Benjamin Zapilko</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1031"/>
+        <name>Benjamin Zapilko</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/bernhard-haslhofer">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-vienna"/>
+        <rdfs:label>Bernhard Haslhofer</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Austria"/>
+        <name>Bernhard Haslhofer</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/bernhard-schandl">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-vienna"/>
+        <rdfs:label>Bernhard Schandl</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Austria"/>
+        <name>Bernhard Schandl</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/carol-hert-schema">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/logic-inc"/>
+        <rdfs:label>Carol Hert Schema</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Carol Hert Schema</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/carol-jean-godby">
+        <rdfs:label>Carol Jean Godby</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1033"/>
+        <name>Carol Jean Godby</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/chao-chen-chen">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/national-taiwan-normal-university"/>
+        <rdfs:label>Chao-chen Chen</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Taiwan"/>
+        <name>Chao-chen Chen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/cheryl-d-walters">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/utah-state-university"/>
+        <rdfs:label>Cheryl D. Walters</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Cheryl D. Walters</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/chiung-min-tsai">
+        <rdfs:label>Chiung-min Tsai</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1022"/>
+        <name>Chiung-min Tsai</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/christine-sommo">
+        <rdfs:label>Christine Sommo</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1005"/>
+        <name>Christine Sommo</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/christine-vanoirbeek">
+        <rdfs:label>Christine Vanoirbeek</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Christine_Vanoirbeek"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007"/>
+        <name>Christine Vanoirbeek</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/christopher-s-g-khoo">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/nanyang-technological-university"/>
+        <rdfs:label>Christopher S.G. Khoo</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Singapore"/>
+        <name>Christopher S.G. Khoo</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/corey-a-harper">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/new-york-university"/>
+        <rdfs:label>Corey A. Harper</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Corey A. Harper</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/cristina-pattuelli">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/pratt-institute"/>
+        <rdfs:label>Cristina Pattuelli</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Cristina Pattuelli</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/denise-shereff">
+        <rdfs:label>Denise Shereff</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1032"/>
+        <name>Denise Shereff</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/diane-hillmann">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/program-committee-chair"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/information-institute-of-syracuse"/>
+        <rdfs:label>Diane I. Hillmann</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Diane_Hillmann"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/76242993/#foaf:Person"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Diane I. Hillmann</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/douglas-campbell">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/national-library-of-new-zealand"/>
+        <rdfs:label>Douglas Campbell</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/New_Zealand"/>
+        <name>Douglas Campbell</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/douglas-donald-dunlop">
+        <rdfs:label>Douglas Donald Dunlop</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1009"/>
+        <name>Douglas Donald Dunlop</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ellen-detlefsen">
+        <rdfs:label>Ellen Detlefsen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1002"/>
+        <name>Ellen Detlefsen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/emma-tonkin">
+        <rdfs:label>Emma Tonkin</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Emma_Tonkin"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1041"/>
+        <name>Emma Tonkin</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/eric-rogers-childress">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/oclc-research"/>
+        <rdfs:label>Eric Rogers Childress</rdfs:label>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/36648407/#foaf:Person"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Eric Rogers Childress</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/faye-r-leibowitz">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-pittsburgh"/>
+        <rdfs:label>Faye R. Leibowitz</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Faye R. Leibowitz</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/filiberto-felipe-martinez-arellano">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universidad-nacional-autonoma-de-mexico"/>
+        <rdfs:label>Filiberto Felipe Martinez-Arellano</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Mexico"/>
+        <name>Filiberto Felipe Martinez-Arellano</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/gail-m-hodge">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/information-international-assoc"/>
+        <rdfs:label>Gail M. Hodge</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Gail M. Hodge</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/gudrun-johannsen">
+        <rdfs:label>Gudrun Johannsen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1015"/>
+        <name>Gudrun Johannsen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/hannah-tarver">
+        <rdfs:label>Hannah Tarver</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1004"/>
+        <name>Hannah Tarver</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/hollie-c-white">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-north-carolina-at-chapel-hill"/>
+        <rdfs:label>Hollie C. White</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Hollie C. White</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/hsueh-hua-chen">
+        <rdfs:label>Hsueh-hua Chen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1022"/>
+        <name>Hsueh-hua Chen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jacques-ducloy">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/drrt-lorraine"/>
+        <rdfs:label>Jacques Ducloy</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Jacques_Ducloy"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/France"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007"/>
+        <name>Jacques Ducloy</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/james-e-andrews">
+        <rdfs:label>James E. Andrews</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1032"/>
+        <name>James E. Andrews</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jane-greenberg">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/1/tutorial-presenter"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/sils-metadata-research-center-university-of-north-carolina"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-north-carolina-at-chapel-hill"/>
+        <rdfs:label>Jane Greenberg</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Jane_Greenberg"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/45531039/#foaf:Person"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Jane Greenberg</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jason-lee">
+        <rdfs:label>Jason Lee</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-996"/>
+        <name>Jason Lee</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jean-charles-lamirel">
+        <rdfs:label>Jean-Charles Lamirel</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Jean-Charles_Lamirel"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007"/>
+        <name>Jean-Charles Lamirel</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jean-pierre-thomesse">
+        <rdfs:label>Jean-Pierre Thomesse</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007"/>
+        <name>Jean-Pierre Thomesse</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jenn-riley">
+        <rdfs:label>Jenn Riley</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Jenn_Riley"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/24052224/#foaf:Person"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/62771608/#foaf:Person"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1037"/>
+        <name>Jenn Riley</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jennifer-b-bowen">
+        <rdfs:label>Jennifer B. Bowen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1010"/>
+        <name>Jennifer B. Bowen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jian-qin">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/syracuse-university"/>
+        <rdfs:label>Jian Qin</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1013"/>
+        <name>Jian Qin</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jin-cheon-na">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/nanyang-technological-university"/>
+        <rdfs:label>Jin-Cheon Na</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Singapore"/>
+        <name>Jin-Cheon Na</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/johannes-keizer">
+        <rdfs:label>Johannes Keizer</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1015"/>
+        <name>Johannes Keizer</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/john-kunze">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/california-digital-library"/>
+        <rdfs:label>John Kunze</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>John Kunze</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/jon-phipps">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/2/tutorial-presenter"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/jes-co"/>
+        <rdfs:label>Jon Phipps</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Jon_Phipps"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Jon Phipps</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/joseph-a-busch">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/project-performance-corporation"/>
+        <rdfs:label>Joseph A. Busch</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Joseph A. Busch</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/joseph-t-tennis">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-washington"/>
+        <rdfs:label>Joseph T. Tennis</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Joseph T. Tennis</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/karen-coyle">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/3/tutorial-presenter"/>
+        <rdfs:label>Karen Coyle</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Karen_Coyle"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/48369992/#foaf:Person"/>
+        <name>Karen Coyle</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/lars-g-svensson">
+        <rdfs:label>Lars G. Svensson</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1008"/>
+        <name>Lars G. Svensson</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/laurel-tarulli">
+        <rdfs:label>Laurel Tarulli</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-994"/>
+        <name>Laurel Tarulli</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/leif-andresen">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/danish-agency-for-libraries-and-media"/>
+        <rdfs:label>Leif Andresen</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Denmark"/>
+        <name>Leif Andresen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/leigh-bain">
+        <rdfs:label>Leigh Bain</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1046"/>
+        <name>Leigh Bain</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/liddy-nevile">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/workshop-convenor"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/la-trobe-university"/>
+        <rdfs:label>Liddy Nevile</rdfs:label>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/67862500/#foaf:Person"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/Australia"/>
+        <name>Liddy Nevile</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/long-xiao">
+        <rdfs:label>Long Xiao</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1044"/>
+        <name>Long Xiao</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/louise-spiteri">
+        <rdfs:label>Louise Spiteri</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-994"/>
+        <name>Louise Spiteri</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/lynne-mcavoy">
+        <rdfs:label>Lynne McAvoy</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1046"/>
+        <name>Lynne McAvoy</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/magaly-vega-lopez">
+        <rdfs:label>Magaly Vega Lopez</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1016"/>
+        <name>Magaly Vega Lopez</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/maja-zumer">
+        <rdfs:label>Maja Zumer</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1024"/>
+        <name>Maja Zumer</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/marcia-lei-zeng">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial-chair"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/kent-state-university"/>
+        <rdfs:label>Marcia Lei Zeng</rdfs:label>
+        <rdfs:label>Marcia Zeng</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Marcia_Lei_Zeng"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/120022309/#foaf:Person"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1024"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1015"/>
+        <name>Marcia Lei Zeng</name>
+        <name>Marcia Zeng</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/margaret-devey">
+        <rdfs:label>Margaret Devey</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1046"/>
+        <name>Margaret Devey</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/marie-claude-cote">
+        <rdfs:label>Marie-Claude Côté</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1046"/>
+        <name>Marie-Claude Côté</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/mary-jo-dorsey">
+        <rdfs:label>Mary Jo Dorsey</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1002"/>
+        <name>Mary Jo Dorsey</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/masahide-kanzaki">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/zenon-ltd-partners"/>
+        <rdfs:label>Masahide Kanzaki</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Japan"/>
+        <name>Masahide Kanzaki</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/mei-ling-wang">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/national-chengchi-university"/>
+        <rdfs:label>Mei-Ling Wang</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Taiwan"/>
+        <name>Mei-Ling Wang</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/miao-chen">
+        <rdfs:label>Miao Chen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1013"/>
+        <name>Miao Chen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/michael-d-crandall">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-washington"/>
+        <rdfs:label>Michael D. Crandall</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Michael D. Crandall</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/michael-k-bergman">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/keynote/2/keynote-presenter"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/structured-dynamics"/>
+        <rdfs:label>Mike Bergman</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanlink.net/tag/mike_bergman"/>
+        <name>Mike Bergman</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/michael-lauruhn">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/program-committee-chair"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/taxonomy-strategies"/>
+        <rdfs:label>Michael Lauruhn</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Michael Lauruhn</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/michael-robert">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/middleton-queensland-university-of-technology"/>
+        <rdfs:label>Michael Robert</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Australia"/>
+        <name>Michael Robert</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/michael-robert-bolam">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-pittsburgh"/>
+        <rdfs:label>Michael Robert Bolam</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Michael Robert Bolam</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/mitsuharu-nagamori">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-tsukuba"/>
+        <rdfs:label>Mitsuharu Nagamori</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Japan"/>
+        <name>Mitsuharu Nagamori</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/muriel-foulonneau">
+        <rdfs:label>Muriel Foulonneau</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Muriel_Foulonneau"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/61882302/#foaf:Person"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007"/>
+        <name>Muriel Foulonneau</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/myung-ja-k-han">
+        <rdfs:label>Myung-Ja K. Han</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-996"/>
+        <name>Myung-Ja K. Han</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/paul-asman">
+        <rdfs:label>Paul Asman</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1005"/>
+        <name>Paul Asman</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/pete-johnston">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/eduserv-foundation"/>
+        <rdfs:label>Pete Johnston</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Pete_Johnston"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+        <name>Pete Johnston</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/philipp-mayr">
+        <rdfs:label>Philipp Mayr</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1031"/>
+        <name>Philipp Mayr</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/rachel-richesson">
+        <rdfs:label>Rachel Richesson</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1032"/>
+        <name>Rachel Richesson</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ron-daniel">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/tutorial/4/tutorial-presenter"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/elsevier-labs"/>
+        <rdfs:label>Ron Daniel</rdfs:label>
+        <name>Ron Daniel</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/san-cannon">
+        <rdfs:label>San Cannon</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1005"/>
+        <name>San Cannon</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/sandy-k-roe">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/cataloging-classification-quarterly"/>
+        <rdfs:label>Sandy K. Roe</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Sandy K. Roe</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/sarah-buchanan">
+        <rdfs:label>Sarah Buchanan</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-997"/>
+        <name>Sarah Buchanan</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/schubert-shou-boon-foo">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/nanyang-technological-university"/>
+        <rdfs:label>Schubert Shou Boon Foo</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Singapore"/>
+        <name>Schubert Shou Boon Foo</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/seth-van-hooland">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/universite-libre-de-bruxelles"/>
+        <rdfs:label>Seth van Hooland</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Belgium"/>
+        <name>Seth van Hooland</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/sheila-bair">
+        <rdfs:label>Sheila Bair</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-996"/>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1006"/>
+        <name>Sheila Bair</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/sherry-koshman">
+        <rdfs:label>Sherry Koshman</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1018"/>
+        <name>Sherry Koshman</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/sherry-l-vellucci">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/rutgers-university"/>
+        <rdfs:label>Sherry L. Vellucci</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Sherry L. Vellucci</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/shigeo-sugimoto">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-tsukuba"/>
+        <rdfs:label>Shigeo Sugimoto</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Japan"/>
+        <name>Shigeo Sugimoto</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/stefanie-ruehle">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/sub-goettingen"/>
+        <rdfs:label>Stefanie Ruehle</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Germany"/>
+        <name>Stefanie Ruehle</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/stephane-sire">
+        <rdfs:label>Stéphane Sire</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007"/>
+        <name>Stéphane Sire</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/stephanie-ogeneski-christensen">
+        <rdfs:label>Stephanie Ogeneski Christensen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1009"/>
+        <name>Stephanie Ogeneski Christensen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/steven-j-miller">
+        <rdfs:label>Steven J. Miller</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1043"/>
+        <name>Steven J. Miller</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/stuart-a-sutton">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/conference-committee-chair"/>
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-washington"/>
+        <rdfs:label>Stuart A. Sutton</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Stuart_A._Sutton"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Stuart A. Sutton</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/stuart-l-weibel">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/keynote/1/keynote-presenter"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/oclc-research"/>
+        <rdfs:label>Stuart L. Weibel</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Stuart_Weibel"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/73638839/#foaf:Person"/>
+        <name>Stuart L. Weibel</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/susan-steuer">
+        <rdfs:label>Susan Steuer</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1006"/>
+        <name>Susan Steuer</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/thierry-daunois">
+        <rdfs:label>Thierry Daunois</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1007"/>
+        <name>Thierry Daunois</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/thomas-baker">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/dublin-core-metadata-initiative"/>
+        <rdfs:label>Thomas Baker</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>Thomas Baker</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/timothy-patrick">
+        <rdfs:label>Timothy Patrick</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1032"/>
+        <name>Timothy Patrick</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/traugott-koch">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/max-planck-digital-library"/>
+        <rdfs:label>Traugott Koch</rdfs:label>
+        <owl:sameAs rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Traugott_Koch"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/61559869/#foaf:Person"/>
+        <based_near rdf:resource="http://dbpedia.org/resource/Germany"/>
+        <name>Traugott Koch</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/william-e-moen">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/university-of-north-texas"/>
+        <rdfs:label>William E. Moen</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/USA"/>
+        <name>William E. Moen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/xiaozhong-liu">
+        <rdfs:label>Xiaozhong Liu</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1013"/>
+        <name>Xiaozhong Liu</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ya-chen-ho">
+        <rdfs:label>Ya-Chen Ho</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1022"/>
+        <name>Ya-Chen Ho</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/ying-feng">
+        <rdfs:label>Ying Feng</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1044"/>
+        <name>Ying Feng</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/york-sure">
+        <rdfs:label>York Sure</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/posters/A-1031"/>
+        <name>York Sure</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/yunyun-shen">
+        <rdfs:label>Yunyun Shen</rdfs:label>
+        <made rdf:resource="http://data.semanticweb.org/conference/dc/2010/paper/main/A-1044"/>
+        <name>Yunyun Shen</name>
+    </Person>
+
+    <Person rdf:about="http://data.semanticweb.org/person/yushiana-mansor">
+        <swc:holdsRole rdf:resource="http://data.semanticweb.org/conference/dc/2010/programme-committee-member"/>
+        <swrc:affiliation rdf:resource="http://data.semanticweb.org/organization/international-islamic-university-malaysia"/>
+        <rdfs:label>Yushiana Mansor</rdfs:label>
+        <based_near rdf:resource="http://dbpedia.org/resource/Malaysia"/>
+        <name>Yushiana Mansor</name>
+    </Person>
+</rdf:RDF>
