@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/bootstrap-modal/bootstrap-modal.pack.js"></script>
+        <script src="js/vendor/bootstrap-modal/bootstrap-modal.pack.js"></script>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="#">Ask bigger questions ...</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Question" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Context" class="form-control">
+            </div>
+                   <a href="#" class="btn btn-lg btn-success"
+   data-toggle="modal"
+   data-target="#modal_GO">Go</a>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Cloudera Training FAQ</h1>
+        <p>We collect questions, found in our Skype chanel and in email archives.</p>
+        <p>All data is stored in our training-cluster for further analysis. Stay tuned!</p>
+        <p><a target="_blank" href="http://172.16.14.246:8888/search/?collection=9&query=&fq=|context:%22test%22|author:%22Mirko%22" class="btn btn-lg btn-success">Advanced Search &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Add a Question & Answer</h2>
+          <p>Enter your question to find existing answers. </p>
+          <p>See table in <a href="https://docs.google.com/a/cloudera.com/spreadsheet/ccc?key=0AnwImjy2siFOdFRSQmwxS2ctZEhZaGZQR21ZdmVpM2c#gid=0">Google-Drive</a> ...</p>
+          <p><a class="btn btn-success" href="googleform.html" role="button">Start asking &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Review Questions & Answers</h2>
+          <p>Come in, and review existing answers. The more we think about the topics the better
+          our content will be. Well understood questions might be the best starting point for our next generation training materials.</p>
+          <p><a class="btn btn-default" href="review.html" role="button">Improve the content &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Analysis</h2>
+          <p>What are the hot topics? What relations can be found between all the questions, and
+              how are the topics evolving over time?</p>
+          <p><a class="btn btn-default" href="#" data-toggle="modal"
+   data-target="#modal_STATS" role="button">Find more facts &raquo;</a></p>
+        </div>
+      </div>
+  </div>
+</div>
+      
+
+<div class="modal fade" style="width:1200px;" id="modal_STATS" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog" style="width:1100px;" >
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+            <h4 class="modal-title" id="myModalLabel">Quick Search ...</h4>
+            </div>
+            <div class="modal-body">
+                <iframe width="800" height="350" src="//docs.google.com/spreadsheets/d/1t5lXIzs5wHRovi9TrWS3Q0PUZ0NuLnetAz59i202ZNo/gviz/chartiframe?oid=1070188261" 
+                        seamless frameborder=0 scrolling=no></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              
+        </div>
+    </div>
+  </div>
+</div>
+      
+      
+<div class="modal fade" style="width:1200px;" id="modal_GO" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog" style="width:1100px;" >
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+            <h4 class="modal-title" id="myModalLabel">Quick Search ...</h4>
+            </div>
+            <div class="modal-body">
+                <a target="_blank" href="http://172.16.14.246:8888/search/?collection=9&query=&fq=|context:%22test%22|author:%22Mirko%22" class="btn btn-lg btn-success">Advanced Search &raquo;</a>
+                <!--iframe width="800" height="350" src="http://172.16.14.246:8888/search/?collection=9&query=&fq=|context:%22test%22|author:%22Mirko%22//docs.google.com/spreadsheets/d/1t5lXIzs5wHRovi9TrWS3Q0PUZ0NuLnetAz59i202ZNo/gviz/chartiframe?oid=1070188261" 
+                        seamless frameborder=0 scrolling=no></iframe-->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              
+        </div>
+    </div>
+  </div>
+</div>
+      
+      <hr>
+
+      <footer>
+        <p>&copy; Cloudera 2014</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+        
+        
+
+
+        
+        
+    </body>
+</html>
