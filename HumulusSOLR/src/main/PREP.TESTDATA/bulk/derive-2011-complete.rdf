@@ -1,0 +1,33 @@
+
+<!-- Processed by Id: cwm.py,v 1.197 2007/12/13 15:38:39 syosi Exp -->
+<!--     using base file:///Users/knud/Projekte/dogfood-svn/event-conversions/iswc2011/ISWC2011-workshops/derive/WorkshopInfo.ttl-->
+
+
+<rdf:RDF xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#">
+
+    <rdf:Description rdf:about="http://data.semanticweb.org/conference/iswc/2011">
+        <isSuperEventOf rdf:resource="http://data.semanticweb.org/workshop/derive/2011"/>
+    </rdf:Description>
+
+    <WorkshopEvent rdf:about="http://data.semanticweb.org/workshop/derive/2011">
+        <completeGraph rdf:resource="http://data.semanticweb.org/workshop/derive/2011/complete"/>
+        <hasAcronym>DeRiVE2011</hasAcronym>
+        <hasLocation rdf:resource="http://data.semanticweb.org/conference/iswc/2011/place/koch"/>
+        <hasRelatedDocument rdf:resource="http://data.semanticweb.org/workshop/derive/2011/proceedings"/>
+        <hasRole rdf:resource="http://data.semanticweb.org/workshop/derive/2011/chair"/>
+        <isSubEventOf rdf:resource="http://data.semanticweb.org/conference/iswc/2011"/>
+        <isSubEventOf rdf:resource="http://data.semanticweb.org/workshop/derive"/>
+        <swrc:abstract>In recent years, researchers in several communities involved in aspects of the web have begun to realise the potential benefits of assigning an important role to events in the representation and organisation of knowledge and media. The goal of this workshop is to advance research on this general topic within the semantic web community, focusing on topics such as detection and extraction of events, modeling and representation of events, and the use of events within applications, including visualization and interaction. Prior to the workshop, a dataset containing linked events will be made available and a prize is awarded to those participants that submit the best application/analysis based on this data.</swrc:abstract>
+        <rdfs:label>Detection, Representation, and Exploitation of Events in the Semantic Web</rdfs:label>
+        <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T18:00:00+02:00</ical:dtend>
+        <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-23T09:00:00+02:00</ical:dtstart>
+        <ical:url rdf:resource="http://semanticweb.cs.vu.nl/derive2011/"/>
+        <foaf:homepage rdf:resource="http://semanticweb.cs.vu.nl/derive2011/"/>
+    </WorkshopEvent>
+</rdf:RDF>
